@@ -1,3 +1,4 @@
--workspace
+*-workspace
+*-samples
 node_modules
 .DS_Store
