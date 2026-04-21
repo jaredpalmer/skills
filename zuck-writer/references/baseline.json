@@ -1,0 +1,589 @@
+{
+  "sample_count": 12,
+  "sample_titles": [
+    "VR/AR Strategy Memo (June 2015)",
+    "Snapchat Stories Response (2014)",
+    "FB App Vision / Cultural Relevance (April 2022)",
+    "Family Management / Instagram Strategy (May 2018)",
+    "Messenger Platform Vision (2014)",
+    "Tinder / People Recommendations (January 2014)",
+    "Speed and Strategy (February 2008)",
+    "Millennials Reply (January 2020)",
+    "Snapchat Acquisition Thread (October 2013)",
+    "Instagram Acquisition Announcement (April 2012)",
+    "Competitive Intelligence / China Trip (March 2012)",
+    "Perks Philosophy (September 2009)"
+  ],
+  "metrics": {
+    "word_count": {
+      "mean": 276.08,
+      "stdev": 175.15,
+      "min": 81,
+      "max": 699,
+      "values": [
+        699,
+        263,
+        405,
+        309,
+        267,
+        105,
+        267,
+        171,
+        448,
+        81,
+        162,
+        136
+      ],
+      "guardrail": null,
+      "note": "Scale metric \u2014 varies by format, not guardrailed"
+    },
+    "sentence_count": {
+      "mean": 12.17,
+      "stdev": 8.02,
+      "min": 4,
+      "max": 32,
+      "values": [
+        32,
+        11,
+        15,
+        11,
+        12,
+        4,
+        13,
+        7,
+        22,
+        5,
+        5,
+        9
+      ],
+      "guardrail": null,
+      "note": "Scale metric \u2014 varies by format, not guardrailed"
+    },
+    "paragraph_count": {
+      "mean": 6.42,
+      "stdev": 3.06,
+      "min": 2,
+      "max": 12,
+      "values": [
+        12,
+        8,
+        9,
+        6,
+        6,
+        2,
+        9,
+        5,
+        9,
+        5,
+        4,
+        2
+      ],
+      "guardrail": null,
+      "note": "Scale metric \u2014 varies by format, not guardrailed"
+    },
+    "avg_sentence_words": {
+      "mean": 23.18,
+      "stdev": 4.92,
+      "min": 15.1,
+      "max": 32.4,
+      "values": [
+        21.8,
+        23.9,
+        27,
+        28.1,
+        22.2,
+        26.2,
+        20.5,
+        24.4,
+        20.4,
+        16.2,
+        32.4,
+        15.1
+      ],
+      "guardrail": {
+        "low": 18.3,
+        "high": 28.1
+      }
+    },
+    "max_sentence_words": {
+      "mean": 43.33,
+      "stdev": 10.97,
+      "min": 30,
+      "max": 65,
+      "values": [
+        44,
+        44,
+        39,
+        58,
+        40,
+        30,
+        45,
+        41,
+        65,
+        30,
+        53,
+        31
+      ],
+      "guardrail": {
+        "low": 32.4,
+        "high": 54.3
+      }
+    },
+    "min_sentence_words": {
+      "mean": 8.92,
+      "stdev": 6.39,
+      "min": 1,
+      "max": 21,
+      "values": [
+        5,
+        13,
+        15,
+        16,
+        3,
+        21,
+        1,
+        10,
+        6,
+        2,
+        11,
+        4
+      ],
+      "guardrail": {
+        "low": 2.5,
+        "high": 15.3
+      }
+    },
+    "sentence_words_stdev": {
+      "mean": 10.91,
+      "stdev": 3.24,
+      "min": 4.1,
+      "max": 16.7,
+      "values": [
+        10.9,
+        9.1,
+        6.9,
+        12.9,
+        10.2,
+        4.1,
+        12.9,
+        13.0,
+        12.3,
+        10.1,
+        16.7,
+        11.8
+      ],
+      "guardrail": {
+        "low": 7.7,
+        "high": 14.1
+      }
+    },
+    "avg_paragraph_sentences": {
+      "mean": 2.06,
+      "stdev": 0.89,
+      "min": 1.2,
+      "max": 4.5,
+      "values": [
+        2.7,
+        1.5,
+        1.9,
+        1.8,
+        2,
+        2,
+        1.6,
+        1.4,
+        2.6,
+        1.2,
+        1.5,
+        4.5
+      ],
+      "guardrail": {
+        "low": 1.2,
+        "high": 3.0
+      }
+    },
+    "avg_paragraph_words": {
+      "mean": 43.58,
+      "stdev": 13.97,
+      "min": 16.2,
+      "max": 68,
+      "values": [
+        58.2,
+        32.9,
+        45,
+        51.5,
+        44.5,
+        52.5,
+        29.7,
+        34.2,
+        49.8,
+        16.2,
+        40.5,
+        68
+      ],
+      "guardrail": {
+        "low": 29.6,
+        "high": 57.6
+      }
+    },
+    "avg_word_length": {
+      "mean": 4.51,
+      "stdev": 0.3,
+      "min": 3.9,
+      "max": 5.0,
+      "values": [
+        4.5,
+        4.5,
+        4.5,
+        4.9,
+        4.4,
+        5.0,
+        4.2,
+        4.7,
+        3.9,
+        4.7,
+        4.3,
+        4.5
+      ],
+      "guardrail": {
+        "low": 4.2,
+        "high": 4.8
+      }
+    },
+    "commas_per_sentence": {
+      "mean": 0.67,
+      "stdev": 0.27,
+      "min": 0.2,
+      "max": 1.1,
+      "values": [
+        0.8,
+        0.7,
+        0.7,
+        1.1,
+        0.7,
+        0.5,
+        0.2,
+        1.1,
+        0.5,
+        0.6,
+        0.8,
+        0.3
+      ],
+      "guardrail": {
+        "low": 0.4,
+        "high": 0.9
+      }
+    },
+    "parentheses_per_1k": {
+      "mean": 0.6,
+      "stdev": 1.69,
+      "min": 0.0,
+      "max": 5.8,
+      "values": [
+        1.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        5.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "guardrail": {
+        "low": 0,
+        "high": 2.3
+      }
+    },
+    "double_hyphens_per_1k": {
+      "mean": 2.72,
+      "stdev": 3.31,
+      "min": 0.0,
+      "max": 9.5,
+      "values": [
+        0.0,
+        3.8,
+        4.9,
+        3.2,
+        7.5,
+        9.5,
+        3.7,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "guardrail": {
+        "low": 0,
+        "high": 6.0
+      }
+    },
+    "semicolons": {
+      "mean": 0,
+      "stdev": 0.0,
+      "min": 0,
+      "max": 0,
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "guardrail": {
+        "max": 0
+      },
+      "note": "Hard ceiling \u2014 Zuckerberg almost never uses these (max observed: 0)"
+    },
+    "exclamations": {
+      "mean": 0.08,
+      "stdev": 0.29,
+      "min": 0,
+      "max": 1,
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "guardrail": {
+        "max": 1
+      },
+      "note": "Hard ceiling \u2014 Zuckerberg almost never uses these (max observed: 1)"
+    },
+    "em_dashes": {
+      "mean": 0,
+      "stdev": 0.0,
+      "min": 0,
+      "max": 0,
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "guardrail": {
+        "max": 0
+      },
+      "note": "Hard ceiling \u2014 Zuckerberg almost never uses these (max observed: 0)"
+    },
+    "i_we_ratio": {
+      "mean": 0.37,
+      "stdev": 0.2,
+      "min": 0.0,
+      "max": 0.68,
+      "values": [
+        0.19,
+        0.5,
+        0.38,
+        0.27,
+        0.67,
+        0.4,
+        0.5,
+        0.33,
+        0.68,
+        0.2,
+        0.33,
+        0.0
+      ],
+      "guardrail": {
+        "low": 0.2,
+        "high": 0.6
+      }
+    },
+    "hedges_per_1k": {
+      "mean": 4.93,
+      "stdev": 3.26,
+      "min": 0.0,
+      "max": 9.9,
+      "values": [
+        2.9,
+        7.6,
+        9.9,
+        3.2,
+        3.7,
+        9.5,
+        3.7,
+        5.8,
+        6.7,
+        0.0,
+        6.2,
+        0.0
+      ],
+      "guardrail": {
+        "low": 1.7,
+        "high": 8.2
+      }
+    },
+    "contractions_per_1k": {
+      "mean": 29.73,
+      "stdev": 15.38,
+      "min": 10.0,
+      "max": 66.7,
+      "values": [
+        10.0,
+        30.4,
+        39.5,
+        22.7,
+        18.7,
+        66.7,
+        33.7,
+        23.4,
+        40.2,
+        37.0,
+        12.3,
+        22.1
+      ],
+      "guardrail": {
+        "low": 14.3,
+        "high": 45.1
+      }
+    },
+    "passive_per_1k": {
+      "mean": 1.9,
+      "stdev": 3.98,
+      "min": 0.0,
+      "max": 12.3,
+      "values": [
+        2.9,
+        7.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        12.3,
+        0.0,
+        0.0
+      ],
+      "guardrail": {
+        "low": 0,
+        "high": 5.9
+      }
+    },
+    "adverbs_per_1k": {
+      "mean": 21.27,
+      "stdev": 10.51,
+      "min": 7.2,
+      "max": 42.1,
+      "values": [
+        7.2,
+        30.4,
+        19.8,
+        42.1,
+        18.7,
+        38.1,
+        22.5,
+        17.5,
+        13.4,
+        12.3,
+        18.5,
+        14.7
+      ],
+      "guardrail": {
+        "low": 10.8,
+        "high": 31.8
+      }
+    },
+    "questions_per_1k": {
+      "mean": 1.23,
+      "stdev": 2.94,
+      "min": 0.0,
+      "max": 8.9,
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        5.8,
+        8.9,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "guardrail": {
+        "low": 0,
+        "high": 4.2
+      }
+    },
+    "if_conditionals_per_1k": {
+      "mean": 1.89,
+      "stdev": 2.67,
+      "min": 0.0,
+      "max": 7.4,
+      "values": [
+        2.9,
+        0.0,
+        2.5,
+        0.0,
+        3.7,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.2,
+        7.4
+      ],
+      "guardrail": {
+        "low": 0,
+        "high": 4.6
+      }
+    },
+    "numbers_per_1k": {
+      "mean": 7.64,
+      "stdev": 8.77,
+      "min": 0.0,
+      "max": 26.2,
+      "values": [
+        1.4,
+        22.8,
+        4.9,
+        3.2,
+        7.5,
+        9.5,
+        26.2,
+        11.7,
+        4.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "guardrail": {
+        "low": 0,
+        "high": 16.4
+      }
+    }
+  }
+}

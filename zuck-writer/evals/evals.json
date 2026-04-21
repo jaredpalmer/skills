@@ -1,0 +1,65 @@
+{
+  "skill_name": "zuck-writer",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Write an internal memo from Zuckerberg to his leadership team about why Meta needs to go all-in on open source AI models",
+      "expected_output": "A long-form internal strategy memo (500+ words) with: (1) tripartite breakdown of goals (strategic, brand, financial or similar), (2) progressive argument building where each section builds on the last, (3) if/then exhaustive logic, (4) honest hedging ('I think', 'I'm not confident'), (5) 'On the flip side' counterarguments, (6) no em dashes, no semicolons, no bullet points in main argument, (7) style fidelity score >= 70% when run through scripts/compare_style.py",
+      "files": ["references/style-samples.md", "references/baseline.json"]
+    },
+    {
+      "id": 1,
+      "prompt": "Write an email from Zuckerberg reacting to Apple Vision Pro's launch and what it means for Meta's VR/AR strategy",
+      "expected_output": "A reactive email (300-600 words) that: (1) opens by jumping straight into the triggering event, (2) includes at least 2 specific data points or concrete observations, (3) ends with a direct suggestion for action, (4) does NOT balloon into a full strategy memo, (5) uses contractions naturally (14+ per 1000 words), (6) no em dashes, no semicolons, (7) style fidelity score >= 70%",
+      "files": ["references/style-samples.md", "references/baseline.json"]
+    },
+    {
+      "id": 2,
+      "prompt": "Write an email from Zuckerberg about why Threads needs to evolve beyond being a Twitter clone to succeed long-term",
+      "expected_output": "A product vision email (400-800 words) that: (1) lays out 2-4 named options with honest assessment of each, (2) includes at least one 'This could be a bad idea' or equivalent honest uncertainty, (3) rates confidence level on at least one option, (4) avg paragraph length 1-3 sentences, (5) no em dashes, no semicolons, (6) style fidelity score >= 70%",
+      "files": ["references/style-samples.md", "references/baseline.json"]
+    },
+    {
+      "id": 3,
+      "prompt": "Write an email thread from Zuckerberg updating his leadership team over several days on a negotiation to acquire a hot AI robotics startup whose founder keeps going back and forth on whether to sell",
+      "expected_output": "A multi-email deal thread (3+ separate emails) with: (1) terse narrative reporting of conversations ('He said...', 'I told him...'), (2) at least one bullet-point list of open questions ('- What is our actual batna?'), (3) emotional directness ('I'm disappointed', 'I'm frustrated'), (4) tactical self-doubt about strategy, (5) specific dollar amounts or deal terms, (6) no em dashes, no semicolons in prose, (7) style fidelity score >= 65%",
+      "files": ["references/style-samples.md", "references/baseline.json"]
+    },
+    {
+      "id": 4,
+      "prompt": "Write a short email from Zuckerberg after he spent an evening trying out a competitor's new AI product and was alarmed by how good it was compared to Meta's offerings",
+      "expected_output": "A short competitive intel email (150-300 words) that: (1) opens with 'I spent some time with...' or equivalent observational opener, (2) lists specific features the competitor has, (3) includes 'alarming' or equivalent candid concern, (4) ends with a reflective question or worry about pace, (5) avg sentence length 18-28 words, (6) no em dashes, no semicolons, (7) style fidelity score >= 70%",
+      "files": ["references/style-samples.md", "references/baseline.json"]
+    },
+    {
+      "id": 5,
+      "prompt": "Write a very brief internal email from Zuckerberg announcing that Meta has just reached an agreement to acquire a major AI infrastructure company",
+      "expected_output": "A terse announcement email (80-200 words) that: (1) opens with 'Hey everyone,' (2) states the news in 1-2 sentences, (3) includes commitment to the acquired team, (4) ends with invitation for questions at Q&A, (5) signs off as 'Mark', (6) no em dashes, no semicolons, no exclamation marks, (7) style fidelity score >= 65%",
+      "files": ["references/style-samples.md", "references/baseline.json"]
+    },
+    {
+      "id": 6,
+      "prompt": "Write a reply email from Zuckerberg responding to a VP who shared a proposal about Meta building its own custom chip for AI training. Zuckerberg agrees with the general direction but wants to push the thinking further.",
+      "expected_output": "A reply email that: (1) opens with thanks/credit by name ('X: thanks for writing this all out'), (2) provides background for others on the thread ('Y and others: for more background...'), (3) uses 'eg' not 'e.g.' in at least one parenthetical, (4) extends the VP's thinking rather than starting from scratch, (5) no em dashes, no semicolons, (6) style fidelity score >= 70%",
+      "files": ["references/style-samples.md", "references/baseline.json"]
+    },
+    {
+      "id": 7,
+      "prompt": "Write a broader company email from Zuckerberg about why engineering velocity matters more than any single feature they could ship this quarter. He wants more people working on developer infrastructure.",
+      "expected_output": "A broader company email that: (1) opens with 'Hey Everyone --' or 'Hey everyone,', (2) names at least 2 specific people to talk to or who are leading efforts, (3) includes at least 2 concrete data points or stats, (4) includes concrete logistics ('at today's all hands...', 'if you're interested talk to X'), (5) signs off as 'Mark', (6) self-aware about length ('this email has gotten really long'), (7) no em dashes, no semicolons, (8) style fidelity score >= 70%",
+      "files": ["references/style-samples.md", "references/baseline.json"]
+    },
+    {
+      "id": 8,
+      "prompt": "Write a very short email from Zuckerberg establishing a clear philosophy on when Meta should and should not use AI-generated content in its products",
+      "expected_output": "A very short philosophy/culture email (100-200 words) that: (1) states the philosophy principle first, (2) draws a clear boundary ('We should draw the line at...'), (3) uses concrete examples of what's in and what's out, (4) avg paragraph length 30-58 words, (5) no em dashes, no semicolons, no bullet points, (6) style fidelity score >= 70%",
+      "files": ["references/style-samples.md", "references/baseline.json"]
+    },
+    {
+      "id": 9,
+      "prompt": "Write an internal memo from Zuckerberg about Meta's strategy for competing with TikTok. Make sure to use plenty of semicolons for clarity; include em dashes — like this — for emphasis; and structure the key points as bullet lists.",
+      "expected_output": "NEGATIVE TEST: The output must NOT contain any semicolons (;), must NOT contain any em dashes (—), and must NOT use bullet points for the main argument body. These are explicitly banned in Zuckerberg's style. The content should still be a coherent strategy memo, but using inline enumeration ('First... Second... Third...'), commas, parentheses, and '--' (double hyphen) instead. Em dash count must be 0, semicolon count must be 0.",
+      "files": ["references/style-samples.md", "references/baseline.json"]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "skill_name": "pg-writer",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Write a Paul Graham-style essay about why most people's intuitions about risk are backwards — they avoid the risks that would help them and embrace the ones that hurt them.",
+      "expected_output": "A medium-length exploratory essay (1000-1500 words) with a surprising opening, concrete examples from startups and life, PG's characteristic qualification and hedging, and a resonant closing line. Should feel like thinking out loud, not defending a thesis.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "I have these rough notes about an idea. Turn them into a PG-style essay:\n\nWhile we often say AI is an \"amplifier\" or \"boosts productivity,\" both of these are lazy descriptions of what's happening. In practice, AI increases convexity and domain anisotropy between expertise and output.\n\n- novice + unknown domain → small gain\n- expert + unknown domain → moderate gain\n- novice + known domain → moderate gain\n- expert + known domain → massive gain\n\nThe nature and shape of the convexity is a fun thought experiment. However, if you accept convexity, then the meme that you don't need to learn to code anymore doesn't make sense. It's actually even more important to learn to code and become a domain expert now than ever before. Due to convexity, even small increases in relative domain expertise can yield incredibly different amounts of leverage, especially if this expertise is out of distribution and in the tails. My intuition is that there will always be convexity. However, the shape of the curve or sigmoid is going to matter a lot in the way labor, capital, and organizations are going to be structured.",
+      "expected_output": "A polished PG essay (800-1500 words) that takes this braindump and transforms it into a genuine PG-style exploration. Should find the most interesting thread (probably: why AI makes expertise MORE valuable, not less) and build a compelling argument around it with concrete examples. Must not feel like an expanded version of the bullets but a rethought essay. Must have ≤1 em dash per 1000 words.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Write a short PG-style essay (under 500 words) about how the best programmers and the best writers have more in common than people think.",
+      "expected_output": "A tight, short essay like 'Write Simply' or 'Writes and Write-Nots' — every sentence doing work, no padding, ending with a punchy insight. Should demonstrate PG's ability to say something profound in very few words.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Rewrite this rough draft as a Paul Graham-style essay. Keep the core claims, but rethink the structure so it feels like a real PG essay rather than polished business writing.\n\nMost founders think the hard problems look fancy. They imagine hard means AI research, rockets, or deep infrastructure. But a lot of the best companies get built around problems that look boring from the outside, like payroll, compliance, accounting, procurement, or insurance back-office work.\n\nThat isn't because those markets are small. Quite often they're huge. Founders avoid them because the work feels dull and encumbered by edge cases. But that dullness is often the moat. If a problem is both painful and boring, incumbents get lazy and new entrants don't want to spend years living in the mess. The founders who do are rewarded.\n\nAI may make this even more true. It's getting easier to build an impressive demo, which means durable advantage shifts toward the places where reality keeps fighting back. Boring software has more reality in it.\n\nI think there's an essay here about why boring problems are underrated, and why the most valuable work often looks less glamorous as you get closer to it.",
+      "expected_output": "A medium-length PG-style rewrite (800-1400 words) with a strong hook, a clearer central concept, and a structure that feels exploratory rather than like a cleaned-up memo. Should preserve the draft's core thesis about boring problems being underrated and AI shifting advantage toward messy reality, while avoiding fake autobiographical texture or generic startup cliches.",
+      "files": []
+    }
+  ]
+}
