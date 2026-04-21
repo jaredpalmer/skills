@@ -1,0 +1,56 @@
+From: Mark Zuckerberg
+Sent: Thu 2/14/2008 11:35 AM
+To: Mark Zuckerberg
+Subject: speed and strategy
+
+Hey Everyone --
+
+In this note I'm going to discuss what I see as the most important product-related issues we should be focusing on today and how they relate to our strategy.
+
+Before I get into that, I want to say that the biggest development issue I'm thinking about right now is our development speed. There was a good discussion about our development cycle slowing down at the e meeting and I just wanted to say that I agree with a lot of what was said there and think we can and need to be doing a much better job of keeping things moving quickly. A lot of this can be done through better organization of the things we're doing, and D'Angelo, Matt Cohler and I are working to improve it.
+
+The reason our development speed is so important is because it is effectively how well we are executing. We can have a great strategy but if we're slow at implementing it then we still won't succeed. If you have suggestions on this, please let me know.
+
+One way to make sure we can move quickly is for everyone to understand our strategy behind the major product areas we're working on. I've tried to summarize some of the key ones here.
+
+When thinking about specific projects, it's important to keep in mind that what we're trying to do here is build a communication system that connects everyone in the world. People get value from our products primarily in two ways: by getting and sharing information with friends, and by building trust and more valuable relationships with the people they know. Getting information and keeping up relationships are core needs that everyone in the world has, so if we do a good job then we should be able to get everyone in the world to use Facebook.
+
+First, along those lines, internationalization is one of the most important projects we have going on right now. We just launched in Spanish last week and it was a very smooth and successful launch. If you track our growth, you can see that about 10% more new users are signing up this week than we had last week and that is basically all because of this effort. In terms of how this will go long term, it's too early to tell anything for certain, but the way this is currently going puts us on a good trajectory. We're going to follow up the Spanish launch with launches in German and French in the next few weeks, and then from there we just need to launch as quickly as possible in as many of the major languages as we can.
+
+Given that we're trying to get everyone in the world to use Facebook, internationalization is an important project and is high on the priority list.
+
+Second, we need to get the site to be faster and cleaner very soon. Evan discussed this at the e meeting this week, but right now the front end of the site is very slow and takes somewhere around 3 seconds to render pages for people on average. We also have lots of work we can do on the backend to generate pages faster, but right now most of the perceived slowness just comes from browsers having to fetch and render such a large amount of data.
+
+We have a lot of stats that show that usage of the site is basically tied to how fast the site is. The faster we make the site, the more activity we see. I believe the latest data I saw was that if we made the site 100ms faster we'd have about 3% more activity and if we made the site a second faster we'd have about 20% more activity. That's a really big deal. What it means is that even if users don't consciously notice the speed, it's subconsciously making them do fewer page views and less activity. This means that people aren't sharing as much information as they could and therefore people aren't connecting and keeping up with the people they know as well as they could. So keeping the site fast is one of the most important things we can be doing here to help people connect better.
+
+Even if making the site 100ms faster doesn't seem as cool as shipping something shiny and new, this is almost certainly more important and if you can successfully do it then you'll earn a lot of respect within the team and from me and D'Angelo.
+
+We need more people to work on this, so if you're interested in helping out please talk to Bobby Johnson.
+
+Third, we need to help users find their friends on Facebook for the product to work. Since people use Facebook to share information and build relationships with friends, the site doesn't provide much value when users haven't added their friends. We have a growing problem where we haven't made it easy and clear enough for a lot of users, especially in older demographics, to add their friends when they join Facebook so then they become inactive because they're not getting any value from the site.
+
+We have a lot of stats that show that the number of friends a user has is the single factor that correlates the most highly with a user's activity on Facebook by almost any metric (logins, page views, content created, etc). The relationship between number of friends and activity is almost linear, so that means that if someone has twice as many friends as someone else, on average they'll be about twice as active as that other person. So on average a person with 30 friends will be about twice as active as a person with 15 friends and a person with 1000 friends will also be about twice as active as a person with 500 friends.
+
+This also goes the other way though, and people who have few or no friends on the site tend to become inactive. The growth team told me just yesterday that 70% of inactive users have 5 or fewer friends. Less than 3% of inactive users have more than 50 friends. We have almost 25 million inactive users.
+
+Right now we have an issue that even though a lot of new users are signing up for Facebook, many are also becoming inactive because we don't make it easy enough for them to find and add their friends. According to some data we have, almost 90% of users leave the new user flow with fewer than 10 confirmed friends or friend requests pending. More than 80% don't even have 5 confirmed friends or friend requests pending.
+
+This is a major area for improvement and we need more people to work on this. If you're interested, please talk to James Wang.
+
+Fourth, getting the next evolution of Platform right and putting the appropriate short term fixes in place in the interim are both really important for us long term.
+
+Platform is key to our strategy because we believe that there will be a lot of different social applications and ways that people communicate and share information, and we believe we can't develop all of them ourselves. Therefore, even though it's a challenge for us to get this right, it's important for us to focus on it because the company that defines this social platform will be in the best position to offer the most good ways for people to communicate and succeed in the long term. That said, we also need to do a better job of making sure our user experience is good as we're developing this, and I think we're starting to focus more on that now.
+
+Right now there is a major evolution of Platform underway that will redefine what a "good" application is and how apps get distribution through our network. The basic idea here is that we want to reward apps that are trustworthy and are doing things that people want and that people are actually engaging with. The first thing we're going to do to make this happen is get rid of the concept of adding an app, so anyone can just use any app without having to worry about getting that screen that asks you to add the app and put a box on your profile. So there also won't be as many boxes and as much clutter on profiles, although there will still be a way for users to add profile boxes if they want them. The way we're going to enable a lot of information flow is by letting apps give us potential feed stories for anything that a user does within that app. If an app gives us lots of stories with in information that users find interesting, then we'll show more of them and that app will get more distribution. If an app gives us stories that aren't interesting or that users report to be deceptive or spam, then we'll show fewer (or none) of the stories from that app. The same will be true for requests and notifications. This way the amount of distribution, and therefore the success of an app, depends on its ability to generate real activity and information that users find interesting and trustworthy.
+
+This is a big project that involves rearchitecting lots of the feed infrastructure, the profile and a lot of the platform systems. The teams are projecting that the first version will be released at the end of March. If you are interested in helping out to try to get this done faster, you can talk to D'Angelo or the managers of any of these teams.
+
+There's also an increasing focus on aspects of Platform that we can clean up in the next 45 days before this launch. This is important too and is something we haven't been paying enough attention to so far. If you want to help out with this, you can talk to Charlie Cheever, Ben Ling or Ruchi Sanghvi on the Platform team.
+
+Okay -- there are a few more things I want to go over but this email has gotten really long so I'm going to save those for next week. In my next one of these I'll discuss how our core privacy infrastructure needs to evolve with things like friend lists and some of the core applications we need to get right like inbox, chat, calendar and search.
+
+In the meantime, at today's all hands we're going to go over more about internationalization, so that will be a good opportunity for us to appreciate how much work has gone into this and how well it is doing.
+
+If you have any questions about any of this or if you want to discuss our strategy, please come to the Open Q&A tomorrow at 4pm in 164, or you can send me an email.
+
+Mark

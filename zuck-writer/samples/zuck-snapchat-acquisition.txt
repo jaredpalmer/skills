@@ -1,0 +1,156 @@
+I just got off the phone with Evan. He said he enjoyed getting to know us but he thinks they can build much more value on their own. For reference, our offer was $3.1b for the company plus $1b in retention packages. [REDACTED] on his board was advising him strongly not to take the offer. Evan did not offer a counter.
+
+Interestingly, [REDACTED] told him that Instagram was worth >$10b now and that Snapchat could be worth the same soon. I told him we thought Instagram was only worth ~$6b and had a clearer business model, but l'm not sure that moved him.
+
+When I pressed him on his number for a while, he told me that it would be hard to walk away at $6-7b, but that he needed to check with [REDACTED] before giving me any real number. This gives me some hope that we can still get this done at the higher end of our range between $5-6b, but with Benchmark now arguing strongly against the deal l'm less confident this will be possible.
+
+I suggested he get back to me today if he has a counter offer so we can figure out if we were going to move forward quickly. He told me he would do this, but he often takes longer than he says so I wouldn't be surprised if we didn't hear back for a couple of days.
+
+Separately, Yuri confirmed for me over the weekend that he and Tencent both have term sheets in to invest in Snapchat at a $3b+ valuation. Given that, I'm not surprised Benchmark doesn't wasn't to sell for an amount that is at or less than the valuation they can raise money at.
+
+Tactically, I wonder if we're doing the right thing by asking for a counter. It strongly signals we'd pay more, which we would so maybe it's not bad. But it might set their expectations higher than what we can actually get done.
+
+Do you have any suggestions for additional communication to them to try to get this to a good place?
+
+
+From: Amin Zoufonoun
+Date: Monday, October 28, 2013 11:03 AM
+
+i don't think so until they come back with a number. the fact that he references building greater value, instagram's valuation, and numbers from which he'd have a hard time walking today all suggest this is mainly/all about numbers versus what we face with whatsapp's founders: the desire to stay independent and build a lasting company.
+
+as such, i think they are stress testing how badly we want this and psychologically preparing us for a much higher counter (though the $5-6b is an attempt to get us to negotiate against ourselves and move up before they do). this is exactly what i would be doing following saturday... slow rolling things and playing coy to get the other side to flinch.
+
+i would recommend we wait, and anything they come back with, we react with raised eyebrows, a wow, and a we weren't expecting this and we need some time to think about whether and to what extent we can move beyond our current offer... which we know is already at the high end of price/user comps for similar acquisitions (below). and in fact it is. at $5b, below is how things would compare – on an mau basis, we'd set a new high mark ($77/user) and registered users would be at the high end of $50/user (stumbleupon):
+
+
+On Oct 28, 2013, at 11:58 AM, Mark Zuckerberg wrote:
+
+I just talked to Evan again to make sure he understood the misaligned incentives he has with his investors.
+
+His said the he and Bobby really thought they could build a $10b+ business and wanted to try to do it. He also said that we were going to do something, he'd want to push to make the retention packages shorter, like 2 years instead of 4.
+
+We're going to talk again tonight and he's going to have a counter offer then (or he said he would), but this is looking less and less likely at this point.
+
+
+On Oct 29, 2013, at 8:32 AM, Mark Zuckerberg wrote:
+
+Update: Evan didn't call or message me last night, and rather than ping him I just let it drop.
+
+Amin thinks he may just be playing coy, but my sense is he just doesn't want to sell. This wouldn't be the first time Amin was right and I was wrong about a situation like this though.
+
+I'll update again if he gets in touch, but otherwise I'm assuming this isn't happening for now.
+
+
+On Oct 29, 2013, at 11:29 PM, Mark Zuckerberg wrote:
+
+After not calling me last night, Evan pinged me this afternoon asking to talk tonight. He said to call him after 9:30, but when I called him at 10 he didn't pick up and message me back.
+
+Separately, Yuri told me that Evan is pushing him very hard to close the financing by Friday.
+
+I will keep you updated on this when we finally connect, but based on all these signals it seems very unlikely that he wants to sell at this point.
+
+
+On Oct 30, 2013, at 11:30 PM, Mark Zuckerberg wrote:
+
+I sent Evan a note tonight telling him I wanted to close it out and wishing him luck with the financing.
+
+We talked for a few minutes after that where he reaffirmed that he thought staying independent was the right path, especially since economically we were so far apart. I didn't press him on this since the point of the call was to close out the process.
+
+After that, I couldn't shake the nagging feeling that his range and ours might not be so different, so l called him back and told him it would bug me forever if I didn't ask him whether he had actually done the analysis I'd asked about what number he'd sell at or whether he had just decided he wanted to stay independent no matter what. He told me he had done the analysis but hadn't wanted to call me because he was afraid he'd offend me. I told him he wouldn't offend me and he finally shared that his number was $8b with majority cash, or some structure that would be equivalent to him to as if he had sold the company for that much. I told him it was crazy but I wasn't offended, wished him luck and then we got off the phone again.
+
+He owns 25% of the company, so it seems likely what he really wants is to make $2b personally pre-tax and $1b post-tax. In the structure that l'd proposed before, we offered $3b for the company and $1b in retention packages for him and his co-founder. That was equivalent to as if we bought the whole company for $5b from his perspective, since he'd get $0.50 of every $1 of retention package and only $0.25 for every $1 of consideration for the company.
+
+The crazy thing is that if the high end of our range is $5-6b, then it may still be possible to get this done at the very highest end of this range. If we offered $4b for the company and $2b in retention, that would cost us $6b but would achieve his financial goals. Alternatively, if we offered $4.5b for the company and $1.5b in retention, that might be more palatable to the investors and although it wouldn't quite achieve his financial goals, it might be close enough that he'd compromise. There are a number of considerations from our side that we need to weigh before making an offer here:
+
+- What is our actual batna? I still think $5-6b is expensive but reasonable, but we should confirm that.
+
+- On the mix of cash vs stock, if we might do an offering soon, shouldn't we be fairly agnostic on this, or am I missing something here? I'm not sure how cash would work for retention, so all or most of the initial consideration would need to be cash. Is this an optics issue even if not a substantive one?
+
+- How will this impact future M&A? It will make things more expensive, but are we okay with that?
+
+- How will that impact perception of fairness internally? For employees who haven't left for startups? For Kevin and Instagram?
+
+- What is the cost to us if this leaks and still doesn't get done, which is definitely possible?
+
+[REDACTED]
+
+There is time urgency because Evan is pushing to close his financing at $3b+ valuation on Friday, so if we want to do this before then we need to make a decision tomorrow morning.
+
+If we want to move forward, my proposal would be we increase our offer to $4b for the company and $1.5b in retention. That gets him 7/8 of the way towards his financial goal, bringing him close enough that he should engage, while bringing the total cost to us to $5.5b, which still gives us slightly more room to negotiate if necessary. It would also give us a headline cost of just a little more than what they'd raise money at normally, which will make this seem somewhat less crazy.
+
+I think I am in favor of trying this, but it's very aggressive so I want to sleep on it and get your opinions in the morning. I'm sending this now so you can consider all the issues and be ready to  discuss tomorrow.
+
+[REDACTED], can you get us all time to discuss this in the morning at 9 or 10am?
+
+
+From: Mark Zuckerberg
+Date: Thursday, October 31, 2013 12:31 AM
+
+Additional update: I just spoke with Andreessen and he believes it is a good idea for us to try to buy Snapchat at these prices or perhaps even higher. He has a number of arguments we can go through in person. This makes me more confident we should do this.
+
+Tactically, if we move forward, I wonder whether we should offer $4b + $1.5b to try to save $500m or whether we should jump directly to what he's asking for as a best and final offer of $4b + $2b.
+
+
+On Oct 31, 2013, at 6:35 AM, David Ebersman wrote:
+
+I think we can raise cash but we have no certainty about stock price. Companies often try to avoid raising money immediately after communicating to the world that they are using the money for M&A, in particular expensive M&A for a company with no revenues or profits. This combination of events can weigh heavily on the stock. So I think we need to be prepared for the possibility that we are raising money under $40, perhaps under the IPO price. The dynamics there get pretty negative. I am more positive about this deal if it is almost all stock (cash up $1B is manageable. We can make $2B work but it makes me nervous about dry powder). However, we are ready to execute if you want to raise cash. Our call last night serves us well in terms of the other downside of an equity offering which is disclosure, liability, etc.
+
+Full disclosure: If we do not have an index add, you would need to hit the road to explain the rationale for the deal in order to raise the kind of money we would be asking for.
+
+
+On Oct 31, 2013, at 8:22 AM, Chris Cox wrote:
+
+I would definitely try to do this at $6b. Given where we are, I think this will haunt us for a long time if we don't.
+
+On cash: my guess is we could keep this close to ~$1b by walking Evan through the financial issues Ebes presents. It's not in either of our interests to jeopardize FB's value, nor is it to have an unstable cash position, and these are important to him assuming he joins. I think he could understand this a bit and it would help.
+
+On internal equity: this is likely going to be a very big issue for Kevin so I would reach out to him very early on to walk him through it. I'm less worried about other FB employees since this is so clearly about insane and non-replicable growth numbers vs. a talent acquisition.
+
+
+From: Mark Zuckerberg
+Sent: Thursday, October 31, 2013 8:33 AM
+
+What he told me last night was "$8b with the majority in cash". Given that I don't think the retention package should be cash, that means that in order to get to even half the value to him being in cash, we'd be offering the whole $4b upfront in cash.
+
+Alternatively, we could choose to not meet his ask here and having a smaller percentage in cash, but if we do that then we should try to get closer to his ask on everything else, or else the risk that he rejects this will start to increase meaningfully in my view.
+
+For what it's worth, even if we meet him on price and cash, we still need to negotiate on time of retention package since he had asked for 2 years and we'd really need this to be longer. If we negotiate on too many things, I do think he'll just walk and do his financing.
+
+So I guess here are my questions on cash:
+
+- If we offer $4b in cash, then are we comfortable with our level of cash balance assuming that at some point in the next half year we will likely get added to S&P and be able to raise more cash relatively easily? I think I'm comfortable with this, but I just want to check.
+
+- Is there a way to make a stock offer effectively equivalent to cash? That is, put collars on the stock to adjust the amount of it we give according to the price, not having limits on when they can sell, etc? How close can we get here?
+
+
+From: David Ebersman
+Received: Thursday, 31 Oct 2013, 12:19pm
+
+Mark,
+
+[REDACTED]
+
+David
+
+
+From: Mark Zuckerberg
+Sent: Thursday, October 31, 2013 7:32 PM
+To: [REDACTED]
+Cc: Chris Cox; David Ebersman; Amin Zoufonoun; Sheryl Sandberg; [REDACTED]; [REDACTED]
+Subject: Re: Sasquatch update - privileged and confidential
+
+I delivered the offer to Evan and he seemed to take it well. He told me he thought he could get it done and that he'd call me back quickly.
+
+Five hours later he called me and told me he was turning down the offer. He says the offer is what he wants but he just wants to build the company on his own.
+
+I'm disappointed and frustrated by this. I don't know what else to say to him.
+
+At this point, we should probably prepare for it to leak that we offered $6b for them and all the negative that will come from that.
+
+
+From: Sheryl Sandberg
+Sent: 10/31/2013 8:59:48 PM
+
+Yes - but we can dampen it by not confirming
+
+I think you should potentially tell him that leaking this won't help his relationship with you.

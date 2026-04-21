@@ -1,0 +1,30 @@
+From: Mark Zuckerberg
+Sent: Friday, March 30, 2012 12:55 AM
+To: Chris Cox; [REDACTED] Mike Schroepfer; [REDACTED]
+Subject:
+
+I spent some time with the Renren founders today and Robin Li from Baidu earlier in the week and wanted to pass along a few things:
+
+In China there is this strong culture of cloning things quickly and building lots of different products instead of just focusing on one thing at a time. This allows them to plant lots of seeds, and although it yields lower quality products in the short term as they're cloning and the markets are growing quickly, as markets mature there seems to be less of a gap between the clones and the originals.
+
+As an example, the Renren site now seems almost as clean and polished as our own, despite being more of a mess in the past. They also have more features than us, including:
+
+They have built their own version of Pinterest. In addition to your own timeline, you can have board pages that people can follow. They are tightly integrated into their NF. This is similar to what we've talked about doing in the past, and they have a version of this that seems to work well.
+
+They have built their own version of Tumblr. Same deal as with their version of Pinterest. Both seem relatively well executed to me and are two of their fastest growing properties.
+
+They have built their own standalone messenger app, where one key feature is using it like a walkie talkie -- basically like Voxer. Apparently Tencent QQ has also released a Voxer-like app which is really blowing up in China. Robin Li confirmed that a lot of people are using it, although he wasn't sure if that was because it's relatively harder to type in Chinese or if it's a universal need. Still, interesting that it's taking off here.
+
+Renren has also built their own games and they have 6 of the top 10 Chinese games in the iOS app store.
+
+They have also built out a full music product where they have licensed all the music in China themselves.
+
+They have done some innovative things with commenting, like enabling people to easily fork comment threads to turn them into separate threads if they want. They also have emoji integrated into basically every text input field.
+
+They also just implemented a version of divebar with a nice touch where whenever you hover over a person's name, you get a little home icon which takes you to their timeline. We should implement this as well, although we'll probably want to use a different icon than home. (Linking from messaging to people's identities has been an issue for a while, so we should also fix this in the Messenger app, in the title bars of each chat window, etc.)
+
+Overall, seeing all this and the pace that new mobile apps seem to be coming out from other companies makes me think we're moving very slowly. If we were moving faster, then we might be able to build out more of the social use cases ourselves and prevent our competitors from getting footholds.
+
+Maybe it's just a lot easier for these guys to move quickly since they're just copying other people, but a lot of the stuff that we're doing around messages, photos, etc doesn't have a huge number of original problems either.
+
+I wonder what we could do to move a lot faster.

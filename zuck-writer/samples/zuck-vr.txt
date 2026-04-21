@@ -1,0 +1,76 @@
+**From:** Mark Zuckerberg  
+**Date:** June 22, 2015 10:54 AM  
+**Subject:** VR / AR strat
+egy and One
+
+With our recent discussions about accelerating our work in VR / AR, I thought it would be useful to articulate what goals I hope we accomplish with our investment.
+
+Our vision is that VR / AR will be the next major computing platform after mobile in about 10 years. It can be even more ubiquitous than mobile – especially once we reach AR – since you can always have it on. It's more natural than mobile since it uses our normal human visual and gestural systems. It can even be more economical, because once you have a good VR / AR system, you no longer need to buy phones or TV's or many other physical objects – they can just become apps in a digital store.
+
+Beyond the sheer value we can deliver to humanity by accelerating and shaping the development of this technology, we have three primary business goals: strategic, brand and financial.
+
+The strategic goal is clearest. We are vulnerable on mobile to Google and Apple because they make major mobile platforms. We would like a stronger strategic position in the next wave of computing. We can achieve this only by building both a major platform as well as key apps.
+
+I will discuss the main elements of the platform and key apps further below, but for now keep in mind that we need to succeed in building both a major platform and key apps to improve our strategic position on the next platform. If we only build key apps but not the platform, we will remain in our current position. If we only build the platform but not the key apps, we may be in a worse position. We need to build both.
+
+From a timing perspective, we are better off the sooner the next platform becomes ubiquitous and the shorter the time we exist in a primarily mobile world dominated by Google and Apple. The shorter this time, the less our community is vulnerable to the actions of others. Therefore, our goal is not only to win in VR / AR, but also to accelerate its arrival. This is part of my rationale for acquiring companies and increasing investment in them sooner rather than waiting until later to derisk them further. By accelerating this space, we are derisking our vulnerability on mobile.
+
+The brand goal is also simple. The weakest element of our brand is innovation, which is a vulnerable position for us as a technology company dependent on recruiting the best engineers to build the future. Having an innovative brand will pay dividends not only in recruiting but therefore across all of our products and other efforts as well.
+
+An innovative brand comes from building tangible new products. Our work in VR / AR is the best example we have. Our core social networking work is no longer new, Internet.org is extending something rather than inventing it, and AI is not yet tangible. We can do more to tell our story in each of these areas, but succeeding in VR / AR has the most innovation potential in the next 5-10 years. Of course we need to succeed in VR / AR to gain any of these brand benefits, but if we do, this will be very valuable.
+
+The financial goal is the most specific and this is where I'll discuss which aspects of the VR / AR ecosystem we want to open up and which aspects we expect to profit from.
+
+I think you can divide the ecosystem into three major parts: apps / experiences, platform services and hardware / systems. In my vision of ubiquitous VR / AR, these are listed in order of importance (although it's worth noting that Apple has built the world's most valuable company with a high-end vision by reversing that order).
+
+The key apps are what you'd expect: social communication and media consumption, especially immersive video. Gaming is critical but is more hits driven and ephemeral, so owning the key games seems less important than simply making sure they exist on our platform. I expect everyone will use social communication and media consumption tools, and that we'll build a large business if we are successful in these spaces. We will need a large investment and dedicated strategy to build the best services in these spaces. For now though, I'll just assert that building social services is our core competence, so I'll save elaborating further on that for another day.
+
+The platform vision is around key services that many apps use: identity, content and avatar marketplace, app distribution store, ads, payments and other social functionality. These services share the common properties of network effects, scarcity and therefore monetization potential. The more developers who use our content marketplace or app store or payments system, the better they become and the more effectively we can make money.
+
+It's worth noting a few things. First, these platform services should be cross platform. Most of the services can be offered on iOS, Android, on desktop, etc. On Android, we can bother offer an app store and offer many of these services to apps distributed through Play – if we app switch to our preloaded marketplace for purchases, we won't even have to pay Google's 30% rev share. Second, this platform definition is not actually an OS in the technical sense. In modern OSes, however, most of the value comes from advantaging the OS provider's own platform services on the devices where its OS is installed. I think our primary platform strategy should not be focusing on building a fully independent OS, but owning these core platform services across all systems. This will be challenging as OS providers will try to push us out, but if we build superior services and provide things OSes need (eg Unity support), then we have a good shot at success.
+
+The last part of the ecosystem is hardware / systems. This category includes all of the core technology required to make VR / AR work but that has little sustainable business value independently: the headsets, controllers, vision tracking, low-level linux and graphics APIs. These pieces all need to be very good for the overall ecosystem to be viable. For example, smartphones needed good touch screens, battery management, radio technology, etc. But aside from brand, patent enforcement and building teams that are consistently far ahead of everyone else, this is the most difficult part of the ecosystem to build into a large business. Even when companies do succeed, no single hardware company gains ubiquity like our vision requires us to do with apps.
+
+Developing hardware and low-level systems is very important for a few reasons. It helps us accelerate and influence the development of VR / AR. It gives us a significant opportunity to integer our platform services across all systems (not just ours). And if we do consistently great work, it could potentially become an important revenue driver like it has for Apple.
+
+Our overall vision for the space is that we will be completely ubiquitous in killer apps, have very strong coverage in platform services (like Google has with Android) and will be strong enough in hardware and systems to at a minimum support our platform services goals, and at best be a business itself.
+
+In order to achieve this vision, there are many different investments we'll need to make. In key apps, we have no social app effort yet and our video effort is weak. We're going to need to jumpstart both. In platform services, we've started building an identity, app store and payments with Oculus, but we're years behind Valve and Google, and we haven't even started on the avatar and content marketplace. In hardware and systems, we are leading in headsets, controllers and low level SDK for VR, but we don't have a real development / graphics system and we're far behind on AR.
+
+Over the next few years, we're going to need to make major new investments in apps, platform services, development / graphics and AR. Some of these will be acquisitions and some can be built in house. If we try to build them all in house from scratch, then we risk that several will take too long or fail and put our overall strategy at serious risk. To derisk this, we should acquire some of these pieces from leading companies.
+
+Given our own strengths, we will probably be best served building most apps and platform services internally while using acquisitions opportunistically, and then acquiring most of the core VR / AR and 3D tech where we have little experience. This is why I am supportive of acquiring Unity, expecting we will acquire an AR company in the next few years and opportunistically acquiring VR app teams, while also consistently encouraging us to ramp up our internal investment on our platform services ourselves.
+
+One important question is that if our strategy is to win key apps and platform services, then why do we need to make such a big investment in hardware and systems? This is an especially important question when we're considering investing billions of dollars into Unity over the next decade. To illustrate the value of owning this core technology, I'll outline the advantages of owning Unity.
+
+First, Unity will help us build world class VR / AR experiences required to deliver on this overall mission...
+
+Over time someone will need to tightly integrate al of the software and hardware components of this ecosystem – headset, controllers and tracking on the hardware side; avatars, content and identity on the software side – and Unity is at the right level of the stack to do this for most developers.
+
+If we own Unity, we can ensure this always happens well, happens quickly and happens with our systems. If we do this integration with Unity, the Unreal and others will prioritize delivering great experiences with us as well and we will push the entire market forward. If we don't own Unity, then at best we can incentivize them to prioritize doing this for us and everything will just move more slowly, but at worst someone may acquire them and block this from happening at all or with us.
+
+At some level, it's important to own the core technology you depend on to achieve your mission. Even if there is potentially a path forward with it, owning it increases integration opportunities and decreases risk.
+
+Second, Unity will increase the adoption of key platform services like avatar / content marketplace and app distribution store. We will achieve this be integrating these services with Unity to make them both superior and easier to use.
+
+As an example of superiority, if we want to make sure our avatars or identity systems work really well in Unity, well easily be able to do that. No one else building a competing avatar system will be able to modify the Unity engine that everyone uses to support their services in a first class way. We will continue Unity's promise of supporting every development environment, but there will undoubtedly be efficiencies in owning Unity that will help us be the best in building key services.
+
+As an example of ease of use, because we own Unity, our key services will always work well and work fast. We can also make our key services the defaults that developers use. We can make it so compiling from Unity is directly compatible with and ships to our app store, and so the default avatars and content are using our marketplace format. This does not guarantee our services succeed if they're not great, but if they are great then it guarantees all developers will have easy access to them.
+
+Further, since our key services will be integrated so well and so prominently into Unity, that will put pressure on other engines like Unreal to do close integrations with our key services as well as to make sure their developers have the same access. This will help achieve our goal of spreading the important platform services – even to platforms we don't control.
+
+Increasing our developer surface area will give us more opportunities to integrate and upsell our key platform services over time. Just like developers who deeply rely on Google's Play Services are more likely to use the next Play Service API that comes out, developers who use more of our systems to build their VR / AR experiences will also be likely to use additional services as we build them as well.
+
+Third, Unity increases our ability to ensure other platform companies support our platform services.
+
+If we own Unity, then Android, Windows and iOS will all need us to support them on larger portions of their ecosystems won't work. While we wouldn't reject them outright, we will have options for how deeply we support them.
+
+For open platforms like Android and Windows, this helps level the playing field and helps to ensure we can continue offering our app stores and other key services. For iOS, this will not influence Apple to let us offer an app store, but it could give us other important bargaining chips as part of our VR / AR strategy or otherwise.
+
+On the flip side, if someone else buys Unity or the leader in any core technology component of this new ecosystem, we risk being taken out of the market completely if that acquirer is hostile and decides not to support us. Again, this likely wouldn't be a sudden proclamation that Unity no longer supports Oculus, but Google or someone else would just never prioritize improving our integrations.
+
+To some degree, this downside is such a vulnerability that it is likely worth the cost just to mitigate this risk, even if this deal didn't come with all of the upsides for which we originally contemplated it.
+
+Going back to the question of whether it is worth investing billions of dollars into Unity and other core technology over the next decade, the most difficult aspect to evaluate is that we cannot definitively say that if we do X, we will succeed. There are many major pieces of this ecosystem to assemble and many different ways we could be hobbled. All we know is that this improves our chances to build something great.
+
+Given the overall opportunity of strengthening our position in the next major wave of computing, I think it's a clear call to do everything we can to increase our chances. A few billion dollars is expensive, but we can afford it. We've built our business so we can build even greater things for the world, and this is one of the greatest things I can imagine us building for the future...

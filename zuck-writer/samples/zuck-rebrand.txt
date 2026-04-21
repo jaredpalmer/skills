@@ -1,0 +1,136 @@
+From: Mark Zuckerberg
+To: Chris Cox; Javier Olivan; Mike Schroepfer; Sheryl Sandberg; David Wehner; [REDACTED]
+Sent: 5/3/2018 1:17:12 AM
+Subject: Thoughts on Family Management -- privileged and confidential
+
+Confidential -- do *not* share beyond this group
+
+I am growing more convinced that we are approaching our family strategy incorrectly -- especially around Instagram. While we believe our current trajectory will yield strong business growth over the next 5 years, I worry it will also undermine our global network effect, erode our corporate brand, impose an increasingly large strategy tax on all our work, and then over time we may face antitrust regulation requiring us to spin out our other apps anyway.
+
+We are at a moment where we are about to cement our family of apps strategy in a reorg and updated financial reporting. This is also a moment of reflection about our brand and the regulatory environment we face. Before we move forward, we should check in on our strategy and establish how we'd like to operate.
+
+I'll describe what I see as the five primary issues with our current strategy and suggested remedies for each.
+
+1. Cannibalization and Network Collapse
+
+Our current strategy of promoting Instagram is based on data on what happens when the next marginal person joins Instagram after previously just being on Facebook. The data shows that while their Facebook engagement declines significantly, their additional Instagram usage makes the promotion a net positive for the family. I believe this data is sound for each marginal person who transitions from using Facebook --> FB + IG.
+
+However, we are starting to get more data that suggests this hollowing out of Facebook usage compounds as a larger percent of the population gets on Instagram. Recent data from Japan, Russia, and Spain suggest this is a large effect. Japan and Russia are two of the only countries where Instagram use is greater than Facebook, and what we found is that when Instagram use approached Facebook use, overall Facebook use started to decline and then accelerate. We have data suggesting a similar trend will occur in Spain, which is notable because Facebook was never particularly strong in Japan or Russia, but it has been in Spain.
+
+This raises the issue that our models for the future may be wrong. We currently expect both Facebook and Instagram to be able to grow, but it seems likely to be the case that if we promote Instagram to be around the same size as Facebook, that will have significant negative effects on Facebook that we are not currently modeling. That is, the Facebook network can likely sustain decreased engagement among some of its members, but if engagement among its entire population is hollowed out, that may lead to significantly worse outcomes than we currently expect.
+
+This raises natural questions like: if people want to use Instagram, then is it just a better product and are we better off growing it faster?
+
+All of our metrics suggests that Instagram is a good but overall less effective product, and is likely only growing so quickly because we promoted it heavily. Instagram's DAP/MAP ratio, engagement per person, and revenue per time spent are all lower than Facebook's. We can directly attribute the majority of Instagram's growth to distribution from the Facebook app and use of the Facebook graph.
+
+There are certainly countries and demographics where Instagram has stronger product market fit than Facebook (eg Japan, Russia, teens), but it is not even clear how well we'd be doing in these markets without sustained past promotions. Our best estimates are that had Instagram remained independent, it would likely be around the size of Twitter or Snapchat with 300-400 million MAP today, rather than closer to 1 billion.
+
+What this suggests is that while we hope to grow two products, there's a real chance we may be causing network collapse of the more engaging and more profitable product to replace it with one that is less engaging and less profitable. (As well as one that is more difficult for us to operate and that undermines our corporate brand, which I'll get to below.)
+
+To be clear, we have no data that definitely says this will certainly happen since we haven't been through the full lifecycle of Instagram passing Facebook scale in a country where Facebook has traditionally been strong. But we do not have the luxury of waiting until the data proves this one way or the other, since by that point whatever we observe will be largely irreversible.
+
+Given our concern about these effects, we have reduced our promotions from Facebook to Instagram. However, we still both run active promotions in the Facebook app as well as use the Facebook graph to ramp up members of Instagram. At the same time, the Facebook app has nothing resembling an equal value exchange back from Instagram. These remain significant levers for changing the trajectory of the future growth of the family, and as painful as it would be to reduce Instagram growth and revenue forecasts -- and manage the team through this -- it is rational to pull these levers to effectively zero until we reach a reasonable balance.
+
+In fact, that is likely the minimum we should do. If we believe we have incorrectly and inefficiently tipped the balance towards Instagram for too long, then it is rational to now overcorrect and tip the balance in the other direction for some period -- putting integrations in Instagram that we do not have in Facebook, using Instagram data to improve Facebook but not the other way. This may feel unpalatable to our current leaders, but that does not mean it is not the rational thing to do.
+
+2. Network Fragmentation and Impeding Our Mission
+
+Even if we did not face risk of network collapse, fragmenting a network into two still makes the total value of those networks less than it would be if all that activity was concentrated in a single larger network.
+
+There is significant research on this. From a network effects perspective, for example, heavily segregated cities are less prosperous because instead of functioning as a single city economic network, they effectively behave as multiple smaller segregated networks.
+
+Based on this logic, instead of trying to build growth bridges to maximize Instagram's size, it makes much more sense to build sharing and engagement bridges so our apps increasingly function as a single network in more respects.
+
+For example, video creators with large public audiences should be able to easily engage across both easily. Unfortunately this is an example where despite significant efforts we are still not moving in this direction. The Instagram team argues that implementing these bridges will slow their independent progress -- which is true, but likely the wrong short vs long term trade off. If we are concerned about network fragmentation, then we should be willing to have some non-critical products fail in order to make sure the ones that succeed contribute to a stronger rather than weaker overall network effect. (I would define "critical" products only as those where failure creates an existential risk, like Stories. Everything else I'd hold to a higher integration standard.)
+
+A second example is that it is substantially less valuable to have three voice and video calling networks between WhatsApp, Messenger, and Instagram than it would be to have a single network that could make calls between all of them. I didn't even know we were building video calling into Instagram, and we should work more aggressively at integrating these networks together rather than letting the teams fragment them for non-critical products like this.
+
+Beyond network effects, another effect of network fragmentation is that it becomes more difficult to achieve a shared mission because we have to duplicate work across multiple networks. Not only do we have to build things multiple times for full network coverage -- each instance of building something is now more difficult and operates on a weaker network effect.
+
+For example, consider that bets like Pages, Marketplace and Video are all tied to the Facebook network. As we weaken the Facebook network, we are not just slowing the trajectory of News Feed, we are also applying an inhibiting force against all new initiatives tied to the Facebook network (as well as potentially anything tied to the Facebook brand, which I'll get to below.)
+
+It might be worth the added difficulty of building new Facebook products if it became significantly easier to build new services in Instagram or WhatsApp. However, this has been more difficult with Instagram and WhatsApp historically because of their founder leadership. It has generally been harder to operate and build new things in these apps.
+
+The flip side is we have had huge success shipping products like Stories in both, although even there it is difficult to determine how much of the success is due to great product work vs a massive tailwind from network momentum. (We have internal dissonance on this, where we tend to credit Instagram Stories' success to superior product design and use this as a reason for why it is important to retain Kevin, whereas we attribute WhatsApp's even greater success to the fact that WhatsApp is such a big, intensely used network, and use that to argue that Jan's leadership is less necessary going forward.)
+
+Strong founders and different apps to try different approaches are major strengths for innovation. Ideally we would experiment at smaller scale without causing major network fragmentation though. If we had stopped aggressively promoting Instagram at 500 million people, for example, it would have had sufficient scale to build and compete on Stories and we would not have the same concerns about network fragmentation that we have today.
+
+Going forward, the rational decision is to apply a heavier hand on integration in three cases: (1) requiring that non-critical Instagram, WhatsApp and Messenger products integrate more upfront so our apps effectively function as a single network in more instances, (2) reserving specific use cases for Facebook to prevent unnecessary network fragmentation, while not holding back features from Facebook that it might pursue, and (3) more forcefully requiring our other apps to focus on features that Facebook is not in a position to build, like camera-first messaging and India payments. In these cases, we should enforce strictly that Instagram's messaging remains camera-first and does not contribute to any more messaging network fragmentation than is absolutely required.
+
+3. Brand Erosion
+
+When you get an Amazon Echo and start using it after you already use Amazon for commerce, you feel like Amazon is getting more relevant in your life. However, when you get Instagram and start using that in addition to Facebook, you feel like Facebook as a company is getting less relevant in your life.
+
+This is because we haven't effectively linked Instagram and WhatsApp to our corporate Facebook brand. The majority of people don't even know we own those services, and many of those who do know that still see them as sufficiently independent acquisitions that they do not reflect on the person's relationship with Facebook.
+
+I believe this contributes significantly to our brand issues. We have data that many people see Facebook as getting less relevant and believe our best days are behind us. Many think our services are getting worse -- which makes sense since our service is really about the network and we're actively fragmenting our network. This all means people will be less likely to try our new products or any other features we build.
+
+Long term this is likely a bigger brand issue for our products than our recent privacy issues because it gets to the heart of whether we are a company that can even build useful things and remain relevant in people's lives. Tech companies can withstand crises, but once you're Yahoo -- large but irrelevant -- it's tough to get people to even consider your products and it's difficult to succeed. Unfortunately, this brand dynamic is accelerating for us.
+
+I do not believe our current corporate brand strategy is sustainable. From a relevance perspective, we need to find a way to make it so that when a person uses more of our apps, they feel like we're serving them better and becoming more relevant in their life, not less.
+
+I only see two solutions to this: we either need to aggressively brand all of our services with Facebook as our corporate brand, or we need to create a new corporate brand and aggressively brand all of our services with that.
+
+We are not a holding company, so Alphabet is not the right analogy for us. People have a relationship with us, and they do not with Alphabet. Most people don't know what Alphabet is, and Alphabet isn't relevant in their lives. In that case, Google remains the corporate brand people have a relationship with.
+
+If we want to consider rebranding, a better model is Apple, Microsoft, or Samsung -- companies with strong consumer-facing corporate brands that are distinct from any specific product, but aggressively attached to all of their products.
+
+That said, an impulse to consider rebranding feels largely motivated by fear that the Facebook brand is irreparably tarnished. I disagree with this and believe it would be difficult to execute such a rebrand without it coming off like an Altria moment. The only way I could see this working is if we find a name so symbolic of our mission that it feels like we're running towards our core rather than away, and so inspiring that we'd proudly stamp it on every service we provide.
+
+That seems difficult, so it's likely the strongest move is doubling down on the Facebook brand -- like Amazon has with their lead product -- and aggressively branding Instagram and WhatsApp with it. When you open those apps, it would say "Instagram by Facebook" and "WhatsApp by Facebook". We may even need to put Facebook branding in the chrome of those apps where the app names and logos are today to cement this relationship in people's minds.
+
+We don't have to execute a change this month while the Facebook brand is at a global minimum, but this is such a big shift, it seems critical to have a coherent corporate brand moving forward, and it will take time to execute, so we should start now.
+
+4. Strategy Tax
+
+If the first three points seemed like big changes, the next two issues suggest we may want to consider even more radical changes.
+
+While we have discussed product and brand issues arising from our current family strategy, I have started to wonder whether our family structure also hinders our ability to even think about strategy rationally and ultimately serve people as well as possible. I'll give a few examples.
+
+First, it is hard to quantify the impact of the fact that we cannot even discuss most of these issues openly with our management team for fear that it will demoralize and prevent us from retaining Kevin and Mike.
+
+By not having these issues on the table, important strategic questions go undiscussed unless we raise them in a private forum. For example, one of the major mistakes I regret is not reducing the massive inorganic distribution to Instagram sooner. Growing Instagram to 500 million people still seems like the right move, but we should have checked in a couple of years ago and discussed whether it still made sense to move in this direction. If we had reversed course a year or two sooner, I think we'd be in a much better strategic position right now. (Our revenue and stock price would be smaller, but we'd be fine since they'd still be at all time highs -- just potentially at $50B this year instead of $55B.)
+
+I'm not sure if we would have gotten this right had we been able to discuss the strategy more openly, but it certainly wouldn't have hurt. I also think it would be easier to make every single decision I'm suggesting here if we had been discussing all of this openly for longer rather than seeming to decide it suddenly. Within our current discussion framework where we have to tread very carefully when discussing any possible downsides of promoting Instagram, I'm not sure how we'll even articulate the decisions I'm suggesting here to Kevin.
+
+But that's just corporate strategy. What matters even more is serving people, and here too I'm worried that thinking of ourselves as a family of apps contorts our thinking in ways that are out of alignment with how everyday people think of us and what they want from us.
+
+How much time do our teams put into coordinating between apps that they could be spending just thinking about how to make our apps better for people? For example, we ask the Facebook app video team to not just build features for their app, but to build infrastructure to support other apps, including ones that will compete with them. That is both distracting and strategically at odds. This is an area where the Facebook app has borne a disproportionate tax -- not just on the inventory used to promote other apps but also the strategic complexity of forcing our teams to think about this rather than just focus on building the best experiences.
+
+We're about to move to family of apps accounting to codify that we think of people using our services as one overall network. But no one who uses our products thinks of them this way. It's not like a person using WhatsApp thinks of themselves as a member of the Facebook family of apps. I worry we may be creating strategic dissonance by organizing, measuring, and thinking about ourselves so differently from how people in the world do. (To be clear, advertisers do think of us this way, and so do people thinking of our mission to connect everyone. But it's worth asking whether this will lead us to build better services for people.)
+
+At some level, the only solution to lowering a strategy tax is to reduce constraints on products and allow them to operate more independently. But that doesn't imply moving towards a family of apps org and accounting -- it implies keeping things separate and perhaps accounting for them separately.
+
+The reason we're trying a new org structure is because the status quo isn't working. Our apps are neither operating independently nor with a rational value exchange today. Instead, we are siphoning off the network from the Facebook app to artificially grow Instagram and Messenger. Our goal is that through more active management of the family, we can reverse this siphoning and achieve a more balanced state that uses each app for its strengths without risking network collapse for the most important app.
+
+However, no matter how much we've pushed over the past year to equalize this imbalance, we have not been able to achieve anything close to balance. We have significantly reduced distribution from Facebook to Instagram and we have begun adding sharing meaningful bridges from Messenger back to Facebook, mostly through Stories -- but the balances are still nowhere near equal yet. Even if it’s less than before, Facebook still drives a lot of traffic to Instagram with hardly any coming in the other direction. And since we starting working on our family of apps reorg, we continue to shift key leaders like Adam Mosseri to the Instagram team, continuing our transfer of resources from FB to Instagram.
+
+I wonder if it is actually possible to balance this, or if we will have the fortitude to make the tradeoffs required to do so.
+
+One important constraint is we work hard to retain Kevin. This makes sense because he is an excellent product leader who has built something massively successful. He also genuinely tries to do the right thing and be a good team player. But by the very fact of him pushing so hard for what he believes is right and our desire to retain him, we compromise more than we would for almost any other leader, and over time those compromises compound to creating a large imbalance in the value flows between the apps. (This is not his fault; it is ours.)
+
+I am skeptical it is possible to both retain Kevin and do what it takes to manage these apps in the way that is best for serving people or our business. However, retaining Kevin is one of the key factors for serving the Instagram community as well as possible. And while I don't think we should artificially grow Instagram, I do care deeply about serving the people who want to use it well.
+
+Based on this, I wonder if we should consider the extreme step of spinning Instagram out as a separate company. I understand the business value of having Instagram and Facebook together, so I don't raise this lightly. I'm also not suggesting this is the likely outcome. But I don't think this is quite as crazy as it may initially seem either. And I'm beginning to wonder whether spinning Instagram out is the only structure that will accomplish a number of important goals: (1) focus each team on building the best app to reduce the strategy tax, (2) immediately stop artificially growing Instagram in a way that undermines the Facebook network, and (3) retain Kevin to make sure Instagram can do its best work. Of course doing so would prevent us from building sharing bridges between our apps like I suggest above, but our history suggests it will be hard to build those anyway.
+
+If we did this, we could decide what to do with WhatsApp separately. That will be a simpler decision than Instagram for a few reasons. First, WhatsApp is not a meaningful part of our business today. WhatsApp's growth has been independent and not artificially propped up by FB, so the value exchanges aren’t out of balance, and we're not committing management malpractice that we must correct. And finally, we're about to get a new leader who will be more open to taking on our priorities. So we could consider spinning out WhatsApp now or later as well, but Instagram is the big question for now.
+
+I think it is unlikely we will want to spin out Instagram right now, so most of our conversation should likely be about what steps we need to take to address the strategy tax and strategic imbalance, and whether it is possible to take those steps with Kevin leading Instagram. That said, the next issue will force us to at least grapple with the possibility of a spin out.
+
+5. Antitrust Regulation
+
+As calls to break up the big tech companies grow, there is a non-trivial chance that we will be forced to spin out Instagram and perhaps WhatsApp in the next 5-10 years anyway. This is one more factor we should consider, since even if we wanted to keep these apps together we may not be able to. [REDACTED] can provide a more thorough legal analysis on the risks here, [REDACTED]
+
+It is not too hard to imagine the calls increasing to break up the tech companies, and the next Democratic president taking action to do so. At that point, we will face extremely high pressure, brand damage, and distraction.
+
+On the flip side, while most companies resist break ups, the corporate history is that most companies actually perform better after they’ve been split up. The synergies are usually less than people think and the strategy tax is usually greater than people think.
+
+For example, in our case, we can quantify the ads synergy from using Facebook advertising demand and targeting info to increase the value of Instagram ads. But we may overestimate this because in reality, this wouldn't all go away -- if Instagram spun out tomorrow, we’d put a simple revenue share deal in place to keep the ads integration going. And at the same time, we likely underestimate the burden of the strategy tax on the teams.
+
+Again, I'm not saying we should actually do this now. But as we consider it, we should keep in mind that there's a real chance that all our work to build a family of apps may be something we don’t get to keep. And if we continue on a path -- intentionally or not -- where we siphon off the value from the Facebook network to other apps that we eventually spin out, we may later regret not course correcting sooner in a way that may remain masked if the family of apps stays together.
+
+---
+
+These are issues I've been concerned about for some time, but we are at a moment where we should consider our path before moving forward. The combination of being about to do the family or apps reorg and accounting changes, plus thinking intensely about our brand and spending time in DC considering our regulatory environment have brought these concerns to the forefront.
+
+I understand that changing our strategy may harm our business results and ability to retain key leaders in the near term. I also understand that executing these suggestions won’t be fun. But our current path comes with more long term structural costs than we've previously internalized. The sooner we course correct, the more likely we'll avoid having to take more extreme action down the line, and the better we'll serve our community over the long term.

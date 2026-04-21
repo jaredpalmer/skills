@@ -1,0 +1,29 @@
+I’ve talked to a few of you about this directly, but I want to make sure you’re all tracking the success of Snapchat Stories.
+
+They announced this week that more than 1 billion stories are viewed daily, and that number has doubled in the past 2-3 months. They have 50-100m daily actives, so that’s between 10-20 stories per person daily and growing quickly. They also said that now more stories are viewed daily than snaps, which means this is quickly becoming their primary product.
+
+This is worth noting for a couple of reasons:
+
+First, it’s a clear existence proof that ephemerality works in large semi-public feed products.
+
+I was skeptical at first of why someone would want to broadcast something so raw to so many people at once, but between playing with Slingshot and now seeing these stats, it’s completely clear that this is a very real mainstream sharing use case.
+
+One key insight that makes this work is that the stories expire after 24 hours rather than after you view them.
+
+It’s quite easy to imagine how this would work in any feed product. I struggled to imagine what a feed product would look like where you viewed a post once and then it disappeared, but it’s very easy to imagine a product where posts expire and are automatically deleted after some period of time.
+
+If I heard a stat Kevin shared the other day correctly, deleting posts after a period of time may already be a normal behavior on Instagram. So offering this as a feature would just make the behavior people want even easier while making it clear that this behavior is welcome and fits the purpose of our products.
+
+Second, the growth of Snapchat Stories means that Snapchat is now more of a competitor for Instagram and News Feed than it ever was for messaging.
+
+Snapchat was always in somewhat market from text messaging. But Snapchat Stories serves the exact same use cases of sharing and consuming feeds of content that News Feed and Instagram deliver.
+
+We need to take this new dynamic seriously -- both as a competitive risk and as a product opportunity to add functionality that many people clearly love and want to use daily.
+
+I suggest that you start thinking immediately about how to add ephemerality as an option into both Instagram and News Feed.
+
+This could be very quick and simple -- as easy as an icon you toggle to have your post auto-delete in 24 hours. Or if you have better and simpler ideas, we can try those instead.
+
+My guess is whatever we do first will be imperfect because we are not used to this behavior yet and people are not used to having this functionality in our products either. But I think it’s important for us to dive in and explore here. We’ll learn more by trying things quickly, and then we’ll perfect it in time.
+
+Overall, helping people share moments however they want is our mission, so we can’t sit around as Snapchat popularizes a new type of sharing. We need to make sure our products are the best way to share contently broadly and ephemerally.

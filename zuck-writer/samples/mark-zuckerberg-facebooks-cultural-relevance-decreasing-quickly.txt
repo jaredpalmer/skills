@@ -1,0 +1,52 @@
+From: Mark Zuckerberg
+Date: Tuesday, April 26, 2022 at 10:40 PM
+To: Chris Cox, Tom Alison
+Subject: FB app vision
+
+We’ve spent a lot of time recently on shifting resources from non-Reels/NF FB features to Reels and now to other apps as well -- all moves that I agree with. But as we’re doing this, I want to make sure we have a unique vision for the FB app that can lead to sustainable growth over time. Even though the FB app’s engagement is steady in many places, it feels like its cultural relevance is decreasing quickly and I worry that this may be a leading indicator of future health issues. Even if IG and WA do well, I don’t see a path for our company to succeed in the way we need if FB falters, so we need to get this right. It’s the biggest gap in our FOA strategy that I see now.
+
+It feels to me like the FB app’s position in cultural relevance is deeply tied to the friend graph structure as opposed to other organizing principles -- for example, IG/Twitter-style follow graphs, TikTok-style pure algorithmic approach, Groups/Reddit-style communities, etc.
+
+Friending feels out of vogue right now for at least a few reasons. First, a lot of people’s friend graphs are stale and not filled with the people they want to hear from or connect with. Second, it feels heavyweight to request someone new as a friend, which makes it hard to rectify the first issue. Most of the time when I meet someone or become interested in someone I just want to follow them first but not ask anything of them. Third, and related, since FB doesn’t feel as culturally relevant, that adds further weight to adding some on FB vs other services. Do you want to be seen as someone adding friends on FB, or would you rather be seen adding the person on IG? Finally, many of the people I want to follow at this point are people who use social media somewhat professionally and therefore gravitate to IG and Twitter where it’s more natural to build follower bases (eg all the surfers and MMA fighters I follow).
+
+I think this graph architecture of the service is fundamental to its cultural resonance or lack therefore. Our answer for a while was to shift more towards communities -- which still feels lighter weight and more exciting / acceptable to join on FB -- but for a combination of reasons this has not been able to become anywhere near the primary structure on FB, so the service is still primarily organized around friends. More recently, we’re pivoting to more unconnected Reels/IFR, but while this will be good for surfacing more interesting content, it reduces the social sense of feeling connected to the person creating the content as long as that creation and social interaction isn’t happening on FB -- and right now we seem very far from having much Reels creation originate on FB.
+
+My theory is that we need to refresh the graph structure of FB in order for it to regain cultural relevance and a better long term path. There are a few possible ways to do this, but I don’t think we’ve yet committed to a path. I’ll lay out a few ideas here and then we can discuss over email and also get together to discuss live as well.
+
+Possible graph structures:
+
+Option 1: Double down on Friending
+
+The FB app owns the concept of friending, so if there were a way to freshen this up and make it a more relevant part of life in the 2020s then this could be a good path. That said, I don’t yet have any ideas that I’m highly confident would work to do this.
+
+One potentially crazy idea is to consider wiping everyone’s graphs and having them start again. This obviously carries the risk that if we did that then a lot of people just wouldn’t rebuild their graphs or would become less engaged, so if we wanted to consider this we’d have to build out an experiment and test it in a smaller country to make sure it led to a positive result. I think we’d need to do something relatively extreme like this to move the needle though and I don’t think small things like spring cleaning flows would move the needle.
+
+The hypothesis here is that beyond day-to-day feed consumption, the part of FB that is about reaffirming connections with people is quite valuable. When you’re ramping up your account for the first time, adding people as friends and building your network is one of the most enjoyable parts of the FB experience. If we could recreate that feeling for lots of people, it could reinvigorate the app and also make friending a part of mainstream popular culture again. We could establish a day each year when everyone’s graph gets wiped and everyone needs to start over together. We could also test different versions where this is staggered if wiping everyone at once led too many people to drop off the network.
+
+This could be a bad idea and I’m not confident yet that it would work. If we spent a bunch of time on the idea we might come up with a version of it we’re more confident in though, so it feels worth discussing. If we want to double down on the notion of friending though, I think we’d need to do something that’s related to the core friending mechanism though and not just iterate on friend sharing a bit more (although I’d do that too).
+
+Option 2: Double down on Groups
+
+We haven’t found a way to make groups the main primitive on the service and it’s not clear there is a way to do this. But perhaps with our new focus on community messaging there is a way to make communities much more central to the app. I don’t have any new concrete ideas for how to do this aside from making community messaging work, bringing messaging back into the FB app, implementing the communities nav panel, and reversing the recent decisions to remove feed distribution subsidies that emphasized groups content and GYSJ. Maybe someone else has a different idea here though.
+
+I’m optimistic about community messaging, but after running at groups in FB for several years I’m not sure how much further we’ll be able to push this. It’s possible groups will just never be as big as friending/following, and that a lot of group behavior is moving to messaging anyway. Because of this, I think some variant of option 1 (friending) may be more likely to work, but in case that doesn’t work and other ideas don’t work then it’s worth keeping this in mind as well.
+
+Option 3: Switch to Following
+
+Every other modern social network is built on following rather than friending, so its seems possible that the FB app is just outdated because it never adopted this fundamental innovation. The way to rectify this would be to fully adopt following. If we wanted to do this, I don’t think that simply supporting following for public accounts would be sufficient -- I think we’d have to switch from friending to following on private accounts as well (even though this would work similarly for those accounts) and we’d probably want to get rid of the concept of liking pages as well.
+
+If we don’t want to double down on friending, I think we may want to seriously consider this direction along with a big push to get more creator/influencer discussions on FB. Adopting a following model would make FB more viable for people who wanted to use social media in a more professional way but still feel awkward about setting up a page for themselves rather than a normal account (which has always felt weird to me as well).
+
+Since IG is already very strong in visual creation and FB has more strength in conversations, I think the natural place to focus on cultural relevance would be around public discussions. The FB app should work on Reels creators as well, but text and discussions seems like a more unique area for the family that we could play for cultural relevance, competing with Twitter.
+
+There are offensive and defensive reasons to consider moving in this direction now. A lot of people are apprehensive about the direction Elon might take Twitter, so this might be a unique moment where many public figures or aspiring creators would be more open to moving. Defensively, there’s also a chance that Elon unlocks product iteration velocity and that Twitter could grow a lot as a competitor to us. Twitter has always underperformed as a business compared to its importance, but there’s no rule saying that will always be the case. It’s possible that a product focused on public discussions could be a lot bigger than Twitter is, and it’s possible that either we or Elon could build this.
+
+If we wanted to take this on as our direction for cultural relevance, we’d need to commit to it for several years. We seem to often spin up these efforts and then deprioritize them a year later, and we obviously won’t succeed if we keep doing that. But there may be a good path forward that is converting friends activity to a more modern follow model (keeping a lot of the same friend social behavior plus taking away a lot of the social friction of keeping your graph clean by adding / removing people) while gaining cultural relevance by making a much bigger play for public figures, aspiring creators and public discussions.
+
+[REDACTED]
+
+---
+
+Right now we’re doing some of each of these options, but I don’t think we have a clear plan to make any of them really succeed in the way we’d need to reinvigorate the app. That is, friending and friend sharing are losing steam, groups hasn’t become a primary organizing principle like we’d hoped, our profile+ / following project still seems quite muddled, and we’re iterating well on IFR / Reels but don’t have a clear path to create culture here.
+
+It’s possible the right strategy is to push in multiple of these directions at once (eg [REDACTED] + switching to following), but we should make sure we have a clear vision of where we want to get so we don’t just iterate without ever taking big enough steps to succeed or having the pieces come together into a coherent service designed from first principles.

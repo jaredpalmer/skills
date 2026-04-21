@@ -1,0 +1,13 @@
+From: Mark Zuckerberg
+Sent: Saturday, January 11, 2014 11:54 PM
+To: Mike Vernal; Tom Stocky
+Subject: Hunch / people recommendations
+
+I've been thinking a lot about Tinder and other people recommendation apps since about 10% of people in many countries are using a Tinder now. People recommendations seems like something that should be right up our alley, but it's currently something we're not very good at. Tinder's growth is especially alarming to me because their product is built completely on Facebook data, and it's much better than anything we've built for recommendations using the same corpus.
+
+We're focusing a lot within search on finding specific people, and we're focusing a lot on mapping out all of the world's media and places for recommendations -- but we haven't focused much on people recommendations at all. If you do a dating or recruiting type query, it really shows. The results just aren't relevant yet. If you do a query once, you won't want to do it again.
+
+I think this is a big and important space and it's something we should have a team working on -- probably to develop people recommendation Hunch sections for now. A group was very excited about building a dating standalone app but I didn't find anything they were doing to be particularly differentiated yet. This team might be a good place to start in building this effort.
+
+Related, I'm also curious to review what sections we're currently developing for Hunch soon. Whenever we discuss this, we always use examples like places and movies, but given our strengths with people it seems like we should have some prominent sections on helping you connect and discover people -- both ones you already know who are nearby, and probably a different module for people you don't know yet but should meet. This could end up being the most valuable section in Hunch for a lot of people.
+
