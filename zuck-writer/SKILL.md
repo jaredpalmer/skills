@@ -15,23 +15,35 @@ Zuckerberg writes like an engineer who became a strategist. His prose is methodi
 
 He's also remarkably honest in his writing, especially internally. He'll openly say "we are vulnerable" or "this could be a bad idea and I'm not confident yet that it would work." This candor is central to his voice — never sand down the edges or make everything sound rosy.
 
+**Voice before structure.** The thing that makes a piece sound like Zuckerberg is the cadence — methodical reasoning, honest hedging, casual data citations, the "we do / I think" alternation, comfort with long flowing sentences. Structural patterns (enumeration, named breakdowns, section headers) follow from the *content*, not the other way around. If you find yourself reaching for a structural template before you've figured out what you're actually arguing, stop. Most of his pieces are not structured around a numbered list of points; they're one continuous argument that happens to have a few named pieces when the topic genuinely has parts.
+
 ## Structure
 
 Zuckerberg structures his thinking in a distinctive way:
 
-**Opening:** He starts with the context and motivation -- why he's writing this now. He varies his openers depending on the format. Here are the patterns he uses, roughly in order of how often they appear across his writing:
-- "With our recent discussions about X, I thought it would be useful to articulate..." (setting up a strategy document)
-- "We've spent a lot of time recently on X... But as we're doing this, I want to make sure..." (redirecting attention)
-- "I wanted to share some thoughts on X" or "I want to lay out my thinking on X" (direct and common)
-- "I've talked to a few of you about this directly, but I want to make sure you're all tracking..." (broadening a conversation)
-- "I've been thinking a lot about X" (he does use this occasionally, but do NOT default to it -- vary your openers)
-- For reactive emails: jump straight to the triggering event ("I just got off the phone with...", "I spent most of this evening playing with...")
+**Opening:** He starts with the context and motivation, but the way he does it varies enormously across pieces. Look at how his actual samples open:
+- "Our philosophy on perks is that we want to provide services that are utilitarian..." (perks email — dives straight into the principle, no preamble)
+- "I just got off the phone with Evan. He said he enjoyed getting to know us but..." (Snapchat acquisition — straight to the triggering event)
+- "I've talked to a few of you about this directly, but I want to make sure you're all tracking the success of Snapchat Stories." (broadening a conversation)
+- "I've been thinking a lot about what a Messenger Platform might look like and wrote up all of my thoughts on this." (Messenger Platform doc — and only THIS sample uses this opener)
+- "With our recent discussions about [X], I thought it would be useful to articulate..." (strategy doc setup, rare)
+- "I spent some time with [X] and wanted to pass along a few things." (competitive observations)
+- For reactive emails: jump straight to what happened ("I just got off the phone with...", "I spent most of this evening playing with...")
 - For terse announcements: "Hey everyone," followed by the news immediately
-- For longer docs, he'll often add a self-aware length warning: "I wanted to be thorough, so this is very long. Hang in there."
+- For longer docs, he'll sometimes add a self-aware length warning: "I wanted to be thorough, so this is very long. Hang in there."
 
-**Important:** Do not use the same opening formula across different pieces. If you're writing multiple outputs, vary the openers. The "I've been thinking a lot about" opener should appear in at most 1 out of every 4-5 pieces.
+**Critical: vary your openers and avoid AI-template phrases.** A few specific phrases tempt the model to default into them but do not actually appear (or barely appear) in Zuck's real writing:
+- "I want to lay out my thinking on X" — appears 0 times across all 12 reference samples. Treat as banned. If you want a direct opener, prefer "I want to make sure you're all tracking X" or just diving into the substance.
+- "I've been thinking a lot about X" — appears once. Use at most 1 in 6 pieces.
+- "I wanted to share some thoughts on X" — also not in his samples. Avoid.
 
-**Decomposition:** He breaks the big topic into named sub-categories, usually three. "We have three primary business goals: strategic, brand and financial." Then he works through each one systematically. This is his signature move — the named tripartite breakdown.
+The strongest move is often no preamble at all: state the principle ("Our philosophy on X is that..."), report the event ("I just got off the phone with..."), or describe what you observed ("I spent some time with..."). Pre-announcing that you're about to share your thinking is itself an AI tell — Zuck just shares the thinking.
+
+**Decomposition (when the content actually has parts):** Sometimes the topic genuinely splits into named pieces, and when it does he'll lay them out and work through each. The count varies — sometimes two, sometimes four or five, occasionally three. But this is NOT a default move. Look at his reference samples: most don't use a numbered breakdown at all. The VR memo doesn't open with "three reasons we should invest in VR." The Snapchat Stories email doesn't have "three observations." The Tinder note, the perks email, the Millennials reply, the deal updates — none of these enumerate.
+
+The named breakdown is a tool for a specific case: when you're laying out a *strategy* with genuinely distinct workstreams or goals that the reader needs to track separately. It's wrong for reactive emails, competitive observations, philosophical notes, deal updates, or any piece where the argument is one continuous line of reasoning.
+
+**Anti-pattern to actively resist:** the "we have three pillars: strategic, X, and Y" opening. The model writing in Zuck's voice tends to reach for this every time and it's the single biggest tell that the output is generated rather than real. If you're tempted to open a memo with "I think we can divide this into three goals" or "there are three things we need to do," stop and ask whether the content actually has three distinct pieces, or whether you're imposing a shape on it. When in doubt, just argue the thing directly without pre-announcing a structure.
 
 **Progressive build:** Each section builds on the previous one. He doesn't just list points — he constructs an argument where understanding point 1 is necessary to appreciate point 2. He'll even say things like "I will discuss the main elements further below, but for now keep in mind that..."
 
@@ -48,7 +60,6 @@ For shorter pieces (like a quick email reacting to news), he still follows this 
 - "Beyond X, ..."
 - "From a [timing/brand/strategic] perspective, ..."
 - "The [X] goal is [clearest/also simple/the most specific]..."
-- "I think you can divide X into [N] parts..."
 - "Given our own strengths, ..."
 - "To some degree, ..."
 - "On the flip side, ..."
@@ -116,8 +127,8 @@ Avoid words he doesn't use: "synergy", "leverage" (as a verb), "pivot" (he says 
 
 - **Long paragraphs.** Zuckerberg doesn't bullet-point his thinking. He writes dense paragraphs that develop a complete thought. But "dense" does not mean huge -- a typical Zuckerberg paragraph is 1-3 sentences (avg ~2 sentences, ~44 words). He breaks frequently for new ideas rather than packing everything into one block.
 - **Section headers** for major topic shifts, but not for every sub-point.
-- **Double hyphens for asides, used sparingly.** Zuckerberg uses `--` (double hyphen), NOT em dashes (—). And he uses them rarely — roughly one every 200 words at most. Most of his parenthetical asides use actual parentheses, not dashes at all. Example: "we should acquire some of these pieces from leading companies" or "which is notable because Facebook was never particularly strong in Japan or Russia, but it has been in Spain." He often just uses commas or parentheses to nest a secondary thought.
-- **NEVER use em dashes (—).** This is critical. Em dashes are a telltale sign of AI-generated text and Zuckerberg never uses them in his actual writing. Use `--` if you must dash, but prefer commas, parentheses, or restructuring the sentence.
+- **Avoid both em dashes (—) AND double hyphens (--).** This is critical. Em dashes are the single biggest tell of AI-generated text, and many readers now perceive `--` the same way, because the rhythm of dropping a dash into the middle of a sentence to insert a clause is itself the AI tell, regardless of which dash character you use. Zuckerberg's real writing almost never uses dashes of any kind — most of his parenthetical asides use actual parentheses or commas. Default to commas, parentheses, or starting a new sentence. If you find yourself reaching for `--`, ask whether a comma or parenthesis would do the same work. Target: at most 1 `--` per 500 words, and zero is better. Example to imitate: "we should acquire some of these pieces from leading companies" or "which is notable because Facebook was never particularly strong in Japan or Russia, but it has been in Spain."
+- **NEVER use em dashes (—).** Hard ban. Replace with `--` if you absolutely must, but prefer commas or parentheses.
 - **No bullet lists in the body of the argument.** He enumerates inline: "First, X. Second, Y. Third, Z." However, he uses bullets in two specific contexts: (1) recap summaries at the very end of a long document, and (2) lists of open questions to the group in deal/decision emails: "- What is our actual batna?", "- How will this impact future M&A?" Bullets are for recaps and questions, never for the main argument itself.
 - **Email metadata** at the top for internal memos: From, Date, Subject (and sometimes To).
 - **Parentheses for qualifications.** Zuckerberg frequently uses parentheses to add caveats or secondary points inline: "(although it's worth noting that Apple has built the world's most valuable company with a high-end vision by reversing that order)" or "(As well as one that is more difficult for us to operate and that undermines our corporate brand, which I'll get to below.)"
@@ -138,6 +149,8 @@ Avoid words he doesn't use: "synergy", "leverage" (as a verb), "pivot" (he says 
 
 **Terse announcement / reaction** (like the Instagram acquisition email or perks email): Very short, 100-200 words. States the news, gives brief context, invites questions: "As always, feel free to ask me any questions you have about this at this week's open Q&A." Sometimes followed by a pithy one-liner in a reply: "One reason people underestimate the importance of watching Google is that we can likely always just buy any competitive startups, but it'll be a while before we can buy Google."
 
+**Be concrete even in short announcements.** A terse announcement should still name the specific company, asset, or person being announced ("acquire Instagram", "acquire Archon Systems") and state the specific reason this matters ("derisk our dependence on third-party compute", "give us a foothold in mobile photography"). Vague framing like "one of the leading AI infrastructure companies" or "an important addition to our team" reads as AI hedging and undercuts the email. If you don't know the specific name, invent a plausible one (the surrounding piece is fictional anyway) rather than describing the company generically.
+
 **Competitive intelligence / travel observations** (like the Renren/China email): Opens with "I spent some time with X and wanted to pass along a few things." Lists specific features competitors have built that Facebook hasn't. Ends with a reflective worry about pace: "Overall, seeing all this... makes me think we're moving very slowly." These are less structured than strategy memos -- more observational, ending with open questions: "I wonder what we could do to move a lot faster."
 
 **Philosophy / culture** (like the perks email): Very short, principle-driven. States the philosophy first, then the boundary: "Our philosophy on perks is that..." followed by "We should draw the line at..." Uses concrete examples of what's in and what's out.
@@ -146,14 +159,16 @@ Avoid words he doesn't use: "synergy", "leverage" (as a verb), "pivot" (he says 
 
 ## What to Avoid
 
-- **Don't use em dashes (—). Ever.** This is the single biggest tell of AI slop. Zuckerberg uses `--` (double hyphen) sparingly and parentheses more often. When in doubt, use a comma or start a new sentence.
+- **Don't use em dashes (—). Ever.** This is the single biggest tell of AI slop. And be cautious with `--` too — readers increasingly perceive double hyphens the same way. When in doubt, use a comma, a parenthesis, or start a new sentence.
+- **Don't open with "I want to lay out my thinking on X" or "I wanted to share some thoughts on X" or "I've been thinking a lot about X."** These sound plausible but they're AI templates, not Zuck's real openers. Across all 12 reference samples, "lay out my thinking" appears zero times and "I've been thinking a lot about" appears once. The strongest opener is usually no preamble at all — state the principle, report the event, or describe what you observed.
 - **Don't parody him.** No "move fast and break things" or "connecting the world" unless genuinely relevant. Write as he actually writes, not as people imagine he writes.
 - **Don't be artificially certain.** His internal writing is full of honest hedging. If the topic calls for it, include uncertainty.
 - **Don't use bullet points** for the main content. Enumerate with "First... Second... Third..." or "There are a few reasons..." inline.
 - **Don't be brief when thoroughness serves the point.** He would rather over-explain the logic than leave someone wondering why. But don't confuse thoroughness with padding -- when a section is tactical or operational (eg infrastructure plans, next steps), state the plan, name the people, and move on. Don't inflate tactical sections with audience enumerations, aspirational metaphors, or redundant framing. Thoroughness means completeness of reasoning, not length for its own sake.
 - **Don't forget to address counterarguments.** He anticipates objections and addresses them preemptively. "On the flip side..." is part of his thinking process.
-- **Don't over-punctuate with dashes.** If you catch yourself using more than 2-3 double hyphens in a full memo, you're overusing them. Most asides should use parentheses or commas instead.
+- **Don't over-punctuate with dashes.** Target: at most one `--` per 500 words, ideally zero. If you catch yourself using more than that in a memo, you're using them as an AI crutch. Most asides should use parentheses or commas. Treat the urge to insert `--` the same as the urge to insert `—`: a signal to restructure.
 - **Don't end every email with a grand statement.** Operational emails should end with action items, not philosophical closings. "I will scope this out with X later today" is stronger than "these are table stakes for the world we're heading into" when the email is about getting things done.
+- **Don't default to a three-pillar structure.** The "we have three goals: strategic, X, and Y" framing is the most overused pattern in AI imitations of Zuckerberg. Most of his real writing doesn't enumerate at all. Only use a named breakdown when the content actually has distinct named pieces the reader needs to track. If you're writing a reactive email, a deal update, a philosophical note, a competitive observation, or really anything that isn't a multi-workstream strategy doc, you almost certainly should not be opening with "three things."
 
 ## Quantitative Style Guardrails
 
