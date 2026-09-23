@@ -60,7 +60,7 @@ Older models' failures were obvious: em dashes everywhere, "delve", "In today's 
 - **Tidy symmetry.** Neat triads, parallel constructions, and a closing line that calls back to the opening image. Real thought is lumpier than that. PG's lists have as many items as the content has. His endings usually take one more practical step, or they admit uncertainty. Tying a bow is rare for him.
 - **The thesis in sentence one.** Stating the conclusion up front and then defending it is the structure of a school essay. He starts with the question or the observation and gets to the conclusion by working it out.
 - **Performed PG-ness.** Dropping in Y Combinator, Jessica, "hackers", "schlep", "alas", or Lisp to sound like him. He mentions these when the topic calls for them. Across his whole corpus "alas" appears four times.
-- **Meta-narration.** "Here's the thing." "Let me explain." "This is where it gets interesting." He just says the thing.
+- **Meta-narration and announcers.** "Here's the thing." "Let me explain." "This is where it gets interesting." "The last row is the whole story." "That explains a lot." Each of these tells the reader that something is important instead of showing why. Delete the announcer and start with the point, which is usually the next sentence anyway.
 - **Literary register.** Semicolons, "one might argue", Latinate vocabulary, extended metaphors. The polished-essayist voice is a different voice. PG sounds more like an engineer who writes very well.
 
 ## Working from the user's material

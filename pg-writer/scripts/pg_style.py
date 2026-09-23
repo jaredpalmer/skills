@@ -50,6 +50,12 @@ def normalize(text: str) -> str:
 def clean_essay(text: str) -> dict:
     """Extract the prose body. Returns paragraphs plus structural counts."""
     text = normalize(text)
+    fm = re.match(r"^---\n(.*?)\n---\s*\n", text, flags=re.S)
+    fm_title = None
+    if fm:  # YAML frontmatter from blog engines: keep the title, drop the rest
+        t = re.search(r"^title:\s*['\"]?(.+?)['\"]?\s*$", fm.group(1), flags=re.M)
+        fm_title = t.group(1) if t else None
+        text = text[fm.end():]
     text = re.split(r"\n-{3,}\s*\n\*Source:", text)[0]
     text = re.sub(r"```.*?```", "\n", text, flags=re.S)
 
@@ -113,7 +119,7 @@ def clean_essay(text: str) -> dict:
     # Drop a leading editorial preamble like "(This essay is derived from a talk...)"
     if out and out[0].startswith("(") and out[0].endswith(")") and re.search(r"\b(essay|talk|article)\b", out[0][:80]):
         out = out[1:]
-    return {"title": title, "year": year, "paragraphs": out, "headers": headers,
+    return {"title": title or fm_title, "year": year, "paragraphs": out, "headers": headers,
             "bullets": bullets, "bold_inline": bold_inline}
 
 
@@ -205,7 +211,10 @@ TELL_CANDIDATES = [
     "the truth is", "to be clear", "the answer is simple", "the catch", "what matters", "full stop",
     "the shape of", "the real work", "the hard part", "the quiet part", "something deeper",
     "that's the trick", "that's the whole trick", "here's the", "the real reason", "the real answer",
-    "not a bug", "the point isn't", "it turns out", "genuinely", "truly", "deeply", "fundamentally",
+    "not a bug", "the point isn't", "it turns out",
+    # Announcers: a sentence that declares importance instead of making the point.
+    "the whole story", "explains a lot", "says it all", "tells you everything", "that's everything",
+    "is the key", "the crucial part", "the part that matters", "here's roughly", "this is where", "genuinely", "truly", "deeply", "fundamentally",
     "ultimately", "arguably", "essentially", "leverage", "meaningful", "paradigm",
 ] + FORMAL_TRANSITIONS
 
@@ -323,6 +332,22 @@ METRICS = {
                               "The same phrase keeps coming back. Vary it or cut the lap."),
     "headers_per_1k":        ("Section headers /1k", "upper", 1, "structure", "Most PG essays have no headers."),
     "bullets_per_1k":        ("Bullet/list lines /1k", "upper", 2, "structure", "PG enumerates in prose."),
+}
+
+
+# Two-sided metrics whose fix depends on which side of PG's range you're on: (too low, too high).
+DIRECTIONAL_HINTS = {
+    "avg_word_len": ("Shorter words than PG. Usually harmless if it comes from plain speech; check for choppy "
+                     "baby-talk or lots of numbers and symbols.", "Use shorter, more ordinary words."),
+    "contractions_per_1k": ("Write like you'd say it: it's, don't, you'll.",
+                            "More contractions than PG. Fine in a casual piece, but check it isn't forced."),
+    "conj_start_pct": ("PG's logic moves through plain conjunctions at sentence starts.",
+                       "Too many And/But/So openers. Some sentences should carry their own weight."),
+    "questions_per_1k": ("PG asks the question the reader is thinking.",
+                         "Too many questions. Answer more of them, or turn some into claims."),
+    "you_per_1k": ("PG talks to the reader directly.", "Heavy on 'you'. Check it isn't lecturing the reader."),
+    "sent_len_mean": ("Sentences shorter than PG's. Join fragments that belong to one thought.",
+                      "Sentences longer than PG's. Split the ones that carry two ideas."),
 }
 
 
@@ -606,6 +631,8 @@ def score(text: str, profile: dict, era: str = "all") -> dict:
             continue
         q = qtab[key]
         status, credit = grade(f[key], q, side)
+        if key in DIRECTIONAL_HINTS and status != "ok":
+            hint = DIRECTIONAL_HINTS[key][0 if f[key] < q["50"] else 1]
         results[key] = {
             "label": label, "group": group, "value": round(f[key], 3), "status": status,
             "percentile": round(percentile_of(f[key], q), 1),
