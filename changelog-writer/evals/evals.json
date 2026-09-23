@@ -1,0 +1,26 @@
+{
+  "skill_name": "changelog-writer",
+  "evals": [
+    {
+      "id": 0,
+      "name": "feature-announcement",
+      "prompt": "Write a changelog entry for our deployment platform, Northwind Deploy. The feature: instant rollbacks — one click in the dashboard restores the previous production deployment, including environment variables, build artifacts, and routing config. Restores complete in under 2 seconds. It's enabled by default on all plans, no configuration needed. Rollbacks are logged in the audit log.",
+      "expected_output": "A markdown changelog entry in the Vercel/Cursor house style whose measured style stats pass the grader baseline.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "versioned-release-notes",
+      "prompt": "Write release notes for version 3.2 of our code editor, Beacon. This release adds: multi-root workspaces, a faster file indexer (2.3x faster on large repos), and inline AI commit messages. Fixes: search no longer hangs on repos with 100k+ files, the terminal no longer drops unicode characters, and extension host memory usage is down 30%. Beta users on the Insider channel get it today; stable rollout next week.",
+      "expected_output": "Cursor-style versioned release notes with improvements/fixes sections whose style stats pass the grader baseline.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "ga-announcement",
+      "prompt": "Write a short changelog announcing that audit logs, previously in beta on our platform Beacon Deploy, are now generally available on all plans including Hobby. During beta, teams exported 2M+ log events. GA adds retention controls (30/90/365 days) and a CSV export. No migration needed; existing beta logs carry over.",
+      "expected_output": "A short GA announcement in the house style whose style stats pass the grader baseline.",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "word_count": 6175,
+  "sentence_len": {
+    "median": 16.0,
+    "p95": 29.0,
+    "n": 275
+  },
+  "word_len": {
+    "median": 5.0,
+    "p95": 11.0,
+    "n": 6175
+  },
+  "paragraph_sentences": {
+    "median": 1.0,
+    "p95": 3.0,
+    "n": 192
+  },
+  "comma_per100": 6.348,
+  "emdash_per100": 0.194,
+  "hyphen_per100": 3.838,
+  "colon_per100": 1.085,
+  "semicolon_per100": 0.049,
+  "paren_per100": 0.68,
+  "exclaim_per100": 0.0,
+  "question_per100": 0.0,
+  "fragment_pct": 0.7,
+  "long_sent_pct": 13.1,
+  "second_person_per100": 1.927,
+  "first_plural_per100": 0.356,
+  "bullet_share": 0.334,
+  "bullet_len": {
+    "median": 12.0,
+    "p95": 33.0,
+    "n": 102
+  }
+}
